@@ -47,6 +47,24 @@
     .pagina { grid-template-columns: minmax(0, 1fr); gap: 24px; padding: 24px 16px 64px; }
     nav { position: static; max-height: none; padding: 16px; border: 1px solid var(--linea); border-radius: 12px; }
   }
+  .descargar { display: inline-block; margin: 0 0 24px 12px; font-size: 13px; }
+  /* Impresión y PDF (8-oct-2026): fondo blanco, sin menú lateral, cada parte en página nueva y sin cortar tablas ni
+     esquemas a la mitad. */
+  @media print {
+    @page { size: Letter; margin: 16mm 14mm 18mm; }
+    :root { --fondo: #fff; --fondo-2: #f3f5f9; --texto: #0b1220; --tenue: #4b5567; --linea: #d5dbe6; --acento: #0b4fc4; }
+    body { background: #fff; color: var(--texto); font-size: 10.5pt; line-height: 1.5; }
+    .aviso, nav, .descargar { display: none; }
+    .pagina { display: block; max-width: none; padding: 0; }
+    p, li { color: #1d2636; }
+    h1 { font-size: 26pt; }
+    h2 { break-before: page; margin-top: 0; padding-top: 0; border-top: 0; font-size: 20pt; }
+    h3 { break-after: avoid; font-size: 14pt; margin-top: 22pt; }
+    pre, .tabla, blockquote, tr, li { break-inside: avoid; }
+    a { color: var(--acento); text-decoration: none; }
+    code { background: #eef1f6; }
+    th { background: var(--fondo-2); }
+  }
 </style>
 </head>
 <body>
@@ -54,7 +72,7 @@
 <div class="pagina">
 <nav aria-label="Secciones de la guía"><p>En esta guía</p><ul><li class="h2"><a href="#parte-a-paginas-de-servicios-los-4-pilares">🏛️ PARTE A: PÁGINAS DE SERVICIOS (Los 4 Pilares)</a></li><li class="h3"><a href="#01-consultoria-digital">01. Consultoría Digital</a></li><li class="h3"><a href="#02-agentes-automatizacion">02. Agentes &amp; Automatización</a></li><li class="h3"><a href="#03-plataformas-digitales">03. Plataformas Digitales</a></li><li class="h3"><a href="#04-evolucion-digital">04. Evolución Digital</a></li><li class="h2"><a href="#parte-b-paginas-de-capacidades-6-areas-tecnicas">⚙️ PARTE B: PÁGINAS DE CAPACIDADES (6 Áreas Técnicas)</a></li><li class="h3"><a href="#1-ux-ui-y-estrategia-de-producto">1. UX/UI y Estrategia de Producto</a></li><li class="h3"><a href="#2-desarrollo-de-software">2. Desarrollo de Software</a></li><li class="h3"><a href="#3-agentes-de-ia-y-automatizacion">3. Agentes de IA y Automatización</a></li><li class="h3"><a href="#4-datos-y-analitica">4. Datos y Analítica</a></li><li class="h3"><a href="#5-seguridad-y-confiabilidad">5. Seguridad y Confiabilidad</a></li><li class="h3"><a href="#6-estrategia-y-consultoria">6. Estrategia y Consultoría</a></li><li class="h2"><a href="#parte-c-blog">📝 PARTE C: BLOG</a></li><li class="h3"><a href="#indice-del-blog">Índice del blog</a></li><li class="h3"><a href="#plantilla-de-articulo">Plantilla de artículo</a></li><li class="h3"><a href="#articulos-que-se-pasan-a-la-plantilla">Artículos que se pasan a la plantilla</a></li><li class="h2"><a href="#parte-d-casos-de-exito">🏆 PARTE D: CASOS DE ÉXITO</a></li><li class="h3"><a href="#indice-de-casos">Índice de casos</a></li><li class="h3"><a href="#caso-1-retail-de-electronica">Caso 1 · Retail de electrónica</a></li><li class="h3"><a href="#caso-2-marketplace-de-palcos-y-boletos">Caso 2 · Marketplace de palcos y boletos</a></li><li class="h3"><a href="#caso-3-aerolinea-latinoamericana">Caso 3 · Aerolínea latinoamericana</a></li><li class="h3"><a href="#caso-4-multinacional-de-alimentos">Caso 4 · Multinacional de alimentos</a></li><li class="h3"><a href="#caso-5-financiamiento-inmobiliario">Caso 5 · Financiamiento inmobiliario</a></li></ul></nav>
 <main>
-<p class="fecha">Actualizada el 8 de octubre de 2026</p>
+<p class="fecha">Actualizada el 8 de octubre de 2026<a class="descargar" href="guia-actualizacion-bluepixel-mx.pdf" download>Descargar en PDF</a></p>
 <h1>Guía de actualización de bluepixel.mx: textos, ligas y diseño (Fase 1)</h1>
 <p>Este documento contiene <strong>todos los textos exactos (copy)</strong> del sitio nuevo (Sitio Vivo, Astro) para que Diseño rehaga las páginas de <code>bluepixel.mx</code> (Webflow) con los mismos formatos y textos mientras se publica <code>bluepixel.ai</code>. Las referencias visuales enlazan a la vista previa, que ya usa el sistema de diseño BPDS: <a href="https://bluepixelpruebas.github.io/bluepixel-preview/" target="_blank" rel="noopener">https://bluepixelpruebas.github.io/bluepixel-preview/</a></p>
 <ul>
