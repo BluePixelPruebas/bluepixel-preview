@@ -1,0 +1,1599 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Guía de actualización de bluepixel.mx</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --fondo: #070d1c; --fondo-2: #0d1528; --texto: #eef2fa; --tenue: #a9b3c7; --linea: rgb(255 255 255 / 0.12); --acento: #5aa0ff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 400 16px/1.65 Onest, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .aviso { margin: 0; padding: 7px 16px; font: 500 12px/1.4 system-ui, sans-serif; text-align: center; background: #fff3c4; color: #3d2e00; }
+  .pagina { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 48px; max-width: 1240px; margin: 0 auto; padding: 40px 24px 80px; }
+  nav { position: sticky; top: 24px; align-self: start; max-height: calc(100vh - 48px); overflow: auto; font-size: 13px; }
+  nav p { margin: 0 0 10px; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--tenue); }
+  nav ul { margin: 0; padding: 0; list-style: none; }
+  nav li.h2 { margin-top: 14px; font-weight: 600; }
+  nav li.h3 { padding-left: 12px; }
+  nav a { display: block; padding: 3px 0; color: var(--tenue); text-decoration: none; }
+  nav a:hover, nav a:focus-visible { color: var(--texto); }
+  main { min-width: 0; }
+  .fecha { margin: 0 0 24px; font-size: 13px; color: var(--tenue); }
+  h1 { margin: 0 0 16px; font-size: clamp(30px, 4vw, 46px); font-weight: 300; line-height: 1.1; letter-spacing: -0.02em; }
+  h2 { margin: 64px 0 18px; padding-top: 24px; border-top: 1px solid var(--linea); font-size: clamp(24px, 3vw, 32px); font-weight: 300; line-height: 1.15; scroll-margin-top: 16px; }
+  h3 { margin: 40px 0 12px; font-size: 21px; font-weight: 500; scroll-margin-top: 16px; }
+  p, li { color: #d6dcea; }
+  strong { color: var(--texto); font-weight: 600; }
+  a { color: var(--acento); }
+  a:hover { color: #9cc4ff; }
+  ul, ol { padding-left: 22px; }
+  li { margin: 4px 0; }
+  hr { display: none; }
+  blockquote { margin: 18px 0; padding: 12px 18px; border-left: 2px solid var(--acento); background: var(--fondo-2); border-radius: 0 10px 10px 0; }
+  blockquote p { margin: 6px 0; }
+  code { padding: 1px 6px; border-radius: 6px; background: rgb(255 255 255 / 0.08); font: 13px/1.5 ui-monospace, Consolas, monospace; }
+  pre { overflow-x: auto; padding: 16px; border: 1px solid var(--linea); border-radius: 12px; background: var(--fondo-2); }
+  pre code { padding: 0; background: none; font-size: 12px; line-height: 1.35; }
+  .tabla { overflow-x: auto; margin: 16px 0; border: 1px solid var(--linea); border-radius: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 10px 12px; border-bottom: 1px solid var(--linea); text-align: left; vertical-align: top; }
+  th { background: var(--fondo-2); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  @media (max-width: 900px) {
+    .pagina { grid-template-columns: minmax(0, 1fr); gap: 24px; padding: 24px 16px 64px; }
+    nav { position: static; max-height: none; padding: 16px; border: 1px solid var(--linea); border-radius: 12px; }
+  }
+</style>
+</head>
+<body>
+<p class="aviso">Documento interno de BluePixel para el equipo de Diseño. No se indexa en buscadores.</p>
+<div class="pagina">
+<nav aria-label="Secciones de la guía"><p>En esta guía</p><ul><li class="h2"><a href="#parte-a-paginas-de-servicios-los-4-pilares">🏛️ PARTE A: PÁGINAS DE SERVICIOS (Los 4 Pilares)</a></li><li class="h3"><a href="#01-consultoria-digital">01. Consultoría Digital</a></li><li class="h3"><a href="#02-agentes-automatizacion">02. Agentes &amp; Automatización</a></li><li class="h3"><a href="#03-plataformas-digitales">03. Plataformas Digitales</a></li><li class="h3"><a href="#04-evolucion-digital">04. Evolución Digital</a></li><li class="h2"><a href="#parte-b-paginas-de-capacidades-6-areas-tecnicas">⚙️ PARTE B: PÁGINAS DE CAPACIDADES (6 Áreas Técnicas)</a></li><li class="h3"><a href="#1-ux-ui-y-estrategia-de-producto">1. UX/UI y Estrategia de Producto</a></li><li class="h3"><a href="#2-desarrollo-de-software">2. Desarrollo de Software</a></li><li class="h3"><a href="#3-agentes-de-ia-y-automatizacion">3. Agentes de IA y Automatización</a></li><li class="h3"><a href="#4-datos-y-analitica">4. Datos y Analítica</a></li><li class="h3"><a href="#5-seguridad-y-confiabilidad">5. Seguridad y Confiabilidad</a></li><li class="h3"><a href="#6-estrategia-y-consultoria">6. Estrategia y Consultoría</a></li><li class="h2"><a href="#parte-c-blog">📝 PARTE C: BLOG</a></li><li class="h3"><a href="#indice-del-blog">Índice del blog</a></li><li class="h3"><a href="#plantilla-de-articulo">Plantilla de artículo</a></li><li class="h3"><a href="#articulos-que-se-pasan-a-la-plantilla">Artículos que se pasan a la plantilla</a></li><li class="h2"><a href="#parte-d-casos-de-exito">🏆 PARTE D: CASOS DE ÉXITO</a></li><li class="h3"><a href="#indice-de-casos">Índice de casos</a></li><li class="h3"><a href="#caso-1-retail-de-electronica">Caso 1 · Retail de electrónica</a></li><li class="h3"><a href="#caso-2-marketplace-de-palcos-y-boletos">Caso 2 · Marketplace de palcos y boletos</a></li><li class="h3"><a href="#caso-3-aerolinea-latinoamericana">Caso 3 · Aerolínea latinoamericana</a></li><li class="h3"><a href="#caso-4-multinacional-de-alimentos">Caso 4 · Multinacional de alimentos</a></li><li class="h3"><a href="#caso-5-financiamiento-inmobiliario">Caso 5 · Financiamiento inmobiliario</a></li></ul></nav>
+<main>
+<p class="fecha">Actualizada el 8 de octubre de 2026</p>
+<h1>Guía de actualización de bluepixel.mx: textos, ligas y diseño (Fase 1)</h1>
+<p>Este documento contiene <strong>todos los textos exactos (copy)</strong> del sitio nuevo (Sitio Vivo, Astro) para que Diseño rehaga las páginas de <code>bluepixel.mx</code> (Webflow) con los mismos formatos y textos mientras se publica <code>bluepixel.ai</code>. Las referencias visuales enlazan a la vista previa, que ya usa el sistema de diseño BPDS: <a href="https://bluepixelpruebas.github.io/bluepixel-preview/" target="_blank" rel="noopener">https://bluepixelpruebas.github.io/bluepixel-preview/</a></p>
+<ul>
+<li><strong>Parte A:</strong> Servicios (los 4).</li>
+<li><strong>Parte B:</strong> Capacidades (las 6).</li>
+<li><strong>Parte C:</strong> Blog: índice, plantilla de artículo y artículos que se pasan a la plantilla. Agregada el 8-oct-2026.</li>
+<li><strong>Parte D:</strong> Casos de éxito: índice y los 5 casos. Agregada el 8-oct-2026.</li>
+</ul>
+<hr>
+<h2 id="parte-a-paginas-de-servicios-los-4-pilares">🏛️ PARTE A: PÁGINAS DE SERVICIOS (Los 4 Pilares)</h2>
+<h3 id="01-consultoria-digital">01. Consultoría Digital</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/servicios/consultoria-digital" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Etiqueta (Plazo):</strong> 2 a 4 semanas</li>
+<li><strong>H1:</strong> Consultoría Digital: diagnóstico, roadmap y ROI antes de invertir</li>
+<li><strong>Objetivo:</strong> Brindar certidumbre técnica, financiera y estratégica antes de comprometer capital en desarrollo.</li>
+<li><strong>Para Quién:</strong> Para empresas que necesitan diagnóstico, backlog priorizado y cálculo de ROI antes de invertir.</li>
+<li><strong>Takeaway:</strong> Claridad estratégica y retorno medible antes de escribir la primera línea de código.</li>
+</ul>
+<p><strong>El Conflicto (Lo que cuesta empezar a ciegas):</strong></p>
+<ul>
+<li><strong>Programar sin saber qué resolver:</strong> Con requerimientos ambiguos, cada sprint corrige al anterior y el presupuesto crece sin que el problema se resuelva.</li>
+<li><strong>Software que no conversa con lo que ya tienes:</strong> Una plataforma nueva que no se integra con tu ERP o tu CRM, o que no aguanta la demanda real.</li>
+<li><strong>Inversión sin retorno claro:</strong> Proyectos aprobados por entusiasmo que no mueven ningún indicador del negocio.</li>
+</ul>
+<p><strong>Autodiagnóstico:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Necesitas una consultoría antes de construir?</li>
+<li><strong>Subtítulo:</strong> Cuatro preguntas. El resultado se calcula en tu navegador y no te pedimos datos.
+<ul>
+<li><strong>Pregunta 1:</strong> ¿Tienen calculado el retorno de lo que quieren construir?
+<ul>
+<li>Sí, con modelo financiero y costo de inacción (3 pts)</li>
+<li>Un estimado, sin validar (2 pts)</li>
+<li>Solo sabemos que la competencia ya lo hace (1 pts)</li>
+<li>No, tenemos una lista de funcionalidades (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 2:</strong> ¿Cómo está documentada su arquitectura actual?
+<ul>
+<li>Diagramas al día y contratos de APIs (3 pts)</li>
+<li>En la cabeza de algunos ingenieros (2 pts)</li>
+<li>Documentación de hace más de un año (1 pts)</li>
+<li>No hay documentación formal (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 3:</strong> Si preguntas a tres directores qué debe resolver la plataforma, ¿coinciden?
+<ul>
+<li>Sí, con indicadores compartidos (3 pts)</li>
+<li>En el objetivo, no en las prioridades (2 pts)</li>
+<li>Cada área pide algo distinto (1 pts)</li>
+<li>Hay desacuerdo abierto (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 4:</strong> ¿Han probado los flujos clave con usuarios reales?
+<ul>
+<li>Sí, con prototipos navegables (3 pts)</li>
+<li>Solo con encuestas internas (2 pts)</li>
+<li>Decide la dirección (1 pts)</li>
+<li>Nunca antes de programar (0 pts)</li>
+</ul>
+</li>
+<li><strong>Resultados:</strong>
+<ul>
+<li><strong>Listos para construir:</strong> Tienen bases técnicas y de negocio sólidas. Pueden entrar directo por el Servicio 02 o el Servicio 03.</li>
+<li><strong>Bases buenas, con riesgos:</strong> Hay huecos técnicos o de alineación que pueden desbordar el presupuesto. Una consultoría corta los cierra antes de invertir.</li>
+<li><strong>Conviene diagnosticar primero:</strong> Construir en este punto es un riesgo financiero alto. La Consultoría Digital define qué hacer, en qué orden y con qué retorno.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>El Camino (Semana a semana):</strong></p>
+<ul>
+<li><strong>Semana 1 · Inmersión:</strong> Entendemos el negocio y la operación con los líderes clave, y revisamos los sistemas que ya existen.
+<ul>
+<li><em>Recibes:</em> Mapa de fricciones, Inventario del stack</li>
+</ul>
+</li>
+<li><strong>Semana 2 · Auditoría:</strong> Revisamos código, APIs y datos, y probamos los flujos críticos con usuarios.
+<ul>
+<li><em>Recibes:</em> Diagnóstico IMPATH™, Estado de la deuda técnica</li>
+</ul>
+</li>
+<li><strong>Semana 3 · Arquitectura:</strong> Diseñamos la arquitectura recomendada y calculamos costos de nube e inferencia.
+<ul>
+<li><em>Recibes:</em> Arquitectura técnica recomendada, Modelo de costos</li>
+</ul>
+</li>
+<li><strong>Semana 4 · Business case:</strong> Priorizamos el backlog por impacto y lo presentamos a dirección con el retorno proyectado.
+<ul>
+<li><em>Recibes:</em> Business case con ROI, Backlog priorizado</li>
+</ul>
+</li>
+<li><em>Nota:</em> Así se ve una consultoría de 4 semanas. Si el alcance es menor, se resuelve en 2; el plan exacto se define al acordarlo.</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Diagnóstico de fricción IMPATH™:</strong> Dónde se pierde tiempo y dinero en la operación y en la experiencia de tus usuarios.</li>
+<li><strong>Arquitectura técnica recomendada:</strong> Cambiar de proveedor o de modelo será configuración.</li>
+<li><strong>Backlog priorizado por impacto:</strong> Qué construir primero, ordenado por lo que genera o ahorra.</li>
+<li><strong>Business case con ROI proyectado:</strong> Un caso de inversión que puedes defender ante tu consejo.</li>
+<li><strong>Costo de inacción:</strong> Cuánto te cuesta cada mes no resolverlo.</li>
+</ul>
+<p><strong>Comparación en el tiempo:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Dónde vas en la semana 4?
+<ul>
+<li><strong>Fábrica de software:</strong> Facturando horas. Sin diagnóstico.</li>
+<li><strong>Consultora de presentaciones:</strong> Todavía en entrevistas.</li>
+<li><strong>BluePixel:</strong> Business case y backlog listos para construir. (BluePixel)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Tabla de Comparación:</strong></p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Fábrica de software</th>
+<th>Consultora de presentaciones</th>
+<th>BluePixel FutureProof</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Punto de partida</td>
+<td>Factura horas desde el primer día</td>
+<td>Meses de entrevistas sin revisar la tecnología</td>
+<td>Diagnóstico técnico y de negocio en 2 a 4 semanas</td>
+</tr>
+<tr>
+<td>Revisión técnica</td>
+<td>No audita el código ni la deuda</td>
+<td>Recomendaciones de quien no programa</td>
+<td>Auditoría de código, APIs y arquitectura</td>
+</tr>
+<tr>
+<td>Justificación</td>
+<td>Presupuesto abierto, sin retorno comprometido</td>
+<td>Modelos financieros desconectados de la tecnología</td>
+<td>Costo de inacción y ROI proyectado</td>
+</tr>
+<tr>
+<td>Entregable</td>
+<td>Un contrato por horas</td>
+<td>Una presentación que nadie puede programar</td>
+<td>Arquitectura y backlog listos para construir</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Qué pasa si después decidimos no construir?</p>
+</li>
+<li>
+<p><strong>R:</strong> Evitaste una inversión que no convenía, y eso también es un resultado. Los entregables son tuyos: el diagnóstico de fricción IMPATH™, la arquitectura recomendada, el backlog priorizado y el business case con el costo de inacción. Puedes retomarlos cuando el momento cambie, con BluePixel o con otro equipo, porque se entregan con estándares abiertos.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Estamos obligados a contratar el desarrollo con BluePixel?</p>
+</li>
+<li>
+<p><strong>R:</strong> No. Los cuatro servicios de BluePixel son independientes, y la Consultoría Digital termina con entregables completos que no te atan a contratar el desarrollo. La arquitectura y el backlog se entregan con estándares abiertos para que cualquier equipo, interno o externo, pueda ejecutarlos. Si después quieres que BluePixel construya, Plataformas Digitales (Servicio 03) parte de ese mismo backlog.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Cuánto tiempo le pide a nuestro equipo?</p>
+</li>
+<li>
+<p><strong>R:</strong> Unas cuantas sesiones de trabajo con los líderes clave. El análisis técnico y el modelado los hacemos nosotros. El número de sesiones se define al acordar el alcance.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Cuánto cuesta la consultoría?</p>
+</li>
+<li>
+<p><strong>R:</strong> La inversión depende del alcance y se define antes de empezar. Puedes estimar tu costo de inacción con la calculadora de la capacidad de Estrategia y Consultoría.</p>
+</li>
+</ul>
+<h3 id="02-agentes-automatizacion">02. Agentes &#x26; Automatización</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/servicios/agentes-automatizacion" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Etiqueta (Plazo):</strong> 2 a 4 semanas</li>
+<li><strong>H1:</strong> Agentes &#x26; Automatización: agentes de IA sobre tu ERP en 2 a 4 semanas</li>
+<li><strong>Objetivo:</strong> Poner en producción flujos agénticos e integraciones determinísticas sobre el stack tecnológico actual del cliente.</li>
+<li><strong>Para Quién:</strong> Para empresas que buscan conectar agentes de IA y automatizaciones a sus sistemas actuales sin reemplazarlos.</li>
+<li><strong>Takeaway:</strong> Automatización inteligente sobre lo que ya tienes funcionando.</li>
+</ul>
+<p><strong>El Conflicto (Por qué la IA no llega a producción):</strong></p>
+<ul>
+<li><strong>Asistentes que solo contestan:</strong> Responden preguntas frecuentes, pero no consultan un saldo, no concilian una factura ni actualizan el ERP.</li>
+<li><strong>Miedo a que invente o filtre datos:</strong> Nadie quiere que la IA responda sin sustento frente a un cliente ni que información confidencial termine en un modelo público.</li>
+<li><strong>Sistemas que no se hablan:</strong> Personas copiando datos entre pantallas porque la IA vive aislada de los sistemas que mueven la operación.</li>
+</ul>
+<p><strong>Autodiagnóstico:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Tu proceso está listo para un agente?</li>
+<li><strong>Subtítulo:</strong> Cuatro preguntas. El resultado se calcula en tu navegador y no te pedimos datos.
+<ul>
+<li><strong>Pregunta 1:</strong> ¿El proceso que quieres automatizar sigue reglas que se puedan describir?
+<ul>
+<li>Sí, documentadas en manuales y flujos (3 pts)</li>
+<li>El equipo las conoce, pero no están escritas (2 pts)</li>
+<li>Depende del criterio de personas clave (1 pts)</li>
+<li>Cada quien lo hace distinto (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 2:</strong> ¿Los sistemas que toca (ERP, CRM, correo) tienen APIs o acceso a sus bases de datos?
+<ul>
+<li>Sí, APIs documentadas (3 pts)</li>
+<li>Bases de datos con acceso controlado (2 pts)</li>
+<li>Sistemas antiguos que solo exportan archivos (1 pts)</li>
+<li>No sabemos (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 3:</strong> ¿Cuánto tiempo le dedica tu equipo a ese proceso cada semana?
+<ul>
+<li>Más de 40 horas entre varias personas (3 pts)</li>
+<li>Entre 20 y 40 horas (2 pts)</li>
+<li>Menos de 10 horas (1 pts)</li>
+<li>No lo hemos medido (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 4:</strong> ¿Qué tan sensibles son los datos de ese proceso?
+<ul>
+<li>Críticos: no pueden salir de nuestra nube (3 pts)</li>
+<li>Altos: pedimos acuerdos de cero retención (2 pts)</li>
+<li>Medios: solo que no sean públicos (1 pts)</li>
+<li>No lo hemos evaluado (0 pts)</li>
+</ul>
+</li>
+<li><strong>Resultados:</strong>
+<ul>
+<li><strong>Listos para un agente:</strong> El proceso y los sistemas tienen lo necesario. Un primer agente puede llegar a producción en 2 a 4 semanas.</li>
+<li><strong>Viable, empezando por un flujo:</strong> Hay potencial. Conviene empezar con un solo flujo y un solo sistema para probar la conexión antes de crecer.</li>
+<li><strong>Conviene ordenar primero:</strong> El proceso o los datos todavía no tienen reglas claras. La Consultoría Digital (Servicio 01) los ordena antes de poner IA encima.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>El Camino (Semana a semana):</strong></p>
+<ul>
+<li><strong>Semana 1 · Mapeo y conectores:</strong> Definimos las reglas del proceso, los sistemas que toca y cómo se arma la base de conocimiento.
+<ul>
+<li><em>Recibes:</em> Mapa del flujo, Especificación de conectores MCP</li>
+</ul>
+</li>
+<li><strong>Semana 2 · Agente en pruebas:</strong> Cargamos los datos de la empresa, construimos las herramientas del agente y lo probamos en un ambiente aparte.
+<ul>
+<li><em>Recibes:</em> Agente en ambiente de pruebas</li>
+</ul>
+</li>
+<li><strong>Semana 3 · Guardrails:</strong> Lo probamos con casos límite, ajustamos los filtros de seguridad y definimos qué acciones aprueba una persona.
+<ul>
+<li><em>Recibes:</em> Reporte de precisión y seguridad</li>
+</ul>
+</li>
+<li><strong>Semana 4 · Producción:</strong> Lo desplegamos en tu nube privada, capacitamos al equipo y activamos la telemetría.
+<ul>
+<li><em>Recibes:</em> Agente en producción, Telemetría activa</li>
+</ul>
+</li>
+<li><em>Nota:</em> Así se ve un agente de 4 semanas. Un flujo sencillo con un solo sistema puede resolverse en 2; el plan exacto se define al acordarlo.</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Agente en producción:</strong> En tu nube privada, ejecutando tareas reales del proceso.</li>
+<li><strong>Conectores MCP:</strong> Conexiones con tu ERP o CRM con contratos documentados. Cambiar de modelo será configuración.</li>
+<li><strong>RAG privado:</strong> Responde con tus documentos y datos, cita la fuente y se abstiene cuando no tiene sustento.</li>
+<li><strong>Panel de supervisión:</strong> Tu equipo revisa, aprueba y audita lo que hace el agente.</li>
+<li><strong>Guardrails de seguridad:</strong> Filtros contra inyección de instrucciones y enmascaramiento de datos personales.</li>
+<li><strong>Telemetría:</strong> Cuántas tareas resuelve el agente, cuánto tarda y dónde necesita a una persona.</li>
+</ul>
+<p><strong>Comparación en el tiempo:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Dónde vas en la semana 4?
+<ul>
+<li><strong>Asistente conversacional básico:</strong> Contesta preguntas. No toca tu ERP.</li>
+<li><strong>RPA tradicional:</strong> Scripts que se rompen al cambiar una pantalla.</li>
+<li><strong>BluePixel:</strong> Agente en producción, con una persona aprobando lo crítico. (BluePixel)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Tabla de Comparación:</strong></p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Asistente conversacional básico</th>
+<th>RPA tradicional</th>
+<th>BluePixel FutureProof</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decisiones</td>
+<td>Árbol fijo de opciones</td>
+<td>Reglas que se rompen con cualquier cambio</td>
+<td>Razonamiento con reglas y límites definidos</td>
+</tr>
+<tr>
+<td>Conexión con tus sistemas</td>
+<td>Básica o inexistente</td>
+<td>Imita clics en la pantalla</td>
+<td>Conectores MCP con las APIs de tu ERP o CRM</td>
+</tr>
+<tr>
+<td>Datos privados</td>
+<td>Viajan a una nube pública</td>
+<td>Bases aisladas</td>
+<td>RAG privado dentro de tu nube</td>
+</tr>
+<tr>
+<td>Control</td>
+<td>Caja negra</td>
+<td>Registros difíciles de auditar</td>
+<td>Una persona aprueba lo crítico y cada paso queda registrado</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Qué necesitamos tener listo para empezar?</p>
+</li>
+<li>
+<p><strong>R:</strong> Un proceso con reglas que se puedan describir y acceso a los sistemas que toca. El autodiagnóstico de esta página te dice qué tan cerca están.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Quién de nuestro equipo participa?</p>
+</li>
+<li>
+<p><strong>R:</strong> Dos perfiles: quien conoce el proceso y quien administra los sistemas que el agente va a tocar. Al inicio definen con BluePixel las reglas del proceso y los permisos de acceso, durante las pruebas revisan lo que hace el agente y antes de producción aprueban los guardrails. El trabajo técnico, incluidos los conectores MCP, lo hace el equipo de BluePixel.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Los agentes reemplazan a nuestro equipo?</p>
+</li>
+<li>
+<p><strong>R:</strong> No. Los agentes de IA le quitan a tu equipo el trabajo repetitivo, como capturar, conciliar o consultar datos entre sistemas, para que se enfoque en lo que requiere criterio. Cada agente opera dentro de límites definidos y cada ejecución queda registrada, así que tu equipo lo supervisa desde un panel y resuelve los casos que el agente no debe decidir solo.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Qué pasa después de la semana 4?</p>
+</li>
+<li>
+<p><strong>R:</strong> El agente queda operando en tu nube y tu equipo lo supervisa. Para sumar agentes o ajustar los que ya funcionan está la Evolución Digital (Servicio 04).</p>
+</li>
+</ul>
+<h3 id="03-plataformas-digitales">03. Plataformas Digitales</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/servicios/plataformas-digitales" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Etiqueta (Plazo):</strong> 2 a 4 meses</li>
+<li><strong>H1:</strong> Plataformas Digitales: plataformas y MVPs empresariales con UX validado</li>
+<li><strong>Objetivo:</strong> Diseñar, validar y construir desde cero plataformas web, móviles o MVPs corporativos escalables.</li>
+<li><strong>Para Quién:</strong> Para construir plataformas y MVPs desde cero con UX validado</li>
+<li><strong>Takeaway:</strong> De la concepción a producción en 2 a 4 meses con validación técnica y de mercado.</li>
+</ul>
+<p><strong>El Conflicto (Por qué tantas plataformas se frenan):</strong></p>
+<ul>
+<li><strong>Un MVP que no aguanta el segundo año:</strong> Funciona en el lanzamiento, pero cada funcionalidad nueva cuesta más y tarda más.</li>
+<li><strong>Pantallas diseñadas por opinión:</strong> Nadie las probó con usuarios. No las adoptan y los sprints se van en parches.</li>
+<li><strong>La IA llega tarde:</strong> La plataforma no se preparó para integrarla y termina como un experimento aislado.</li>
+</ul>
+<p><strong>Autodiagnóstico:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Es momento de construir tu plataforma?</li>
+<li><strong>Subtítulo:</strong> Cuatro preguntas. El resultado se calcula en tu navegador y no te pedimos datos.
+<ul>
+<li><strong>Pregunta 1:</strong> ¿Tienen claro qué problema debe resolver la plataforma?
+<ul>
+<li>Sí, con métricas de éxito definidas (3 pts)</li>
+<li>La idea general; falta priorizar (2 pts)</li>
+<li>Queremos abarcar demasiado a la vez (1 pts)</li>
+<li>Todavía lo estamos explorando (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 2:</strong> ¿Para cuándo necesitan estar en producción?
+<ul>
+<li>En 2 a 4 meses (3 pts)</li>
+<li>Antes de 6 meses (2 pts)</li>
+<li>No hay fecha (1 pts)</li>
+<li>Solo estamos cotizando (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 3:</strong> ¿Hay alguien que pueda decidir sobre el producto sin esperar a un comité?
+<ul>
+<li>Sí, un líder dedicado (3 pts)</li>
+<li>Sí, con tiempo parcial (2 pts)</li>
+<li>Decide un comité (1 pts)</li>
+<li>Nadie asignado todavía (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 4:</strong> ¿Qué tan importante es que el código sea de tu empresa?
+<ul>
+<li>Indispensable: debe vivir en nuestra nube (3 pts)</li>
+<li>Muy importante, por inversión o auditorías (2 pts)</li>
+<li>Secundario si sale rápido (1 pts)</li>
+<li>Nos da igual usar una plataforma cerrada (0 pts)</li>
+</ul>
+</li>
+<li><strong>Resultados:</strong>
+<ul>
+<li><strong>Listos para construir:</strong> Tienen claridad, urgencia y quién decida. Se puede llegar a producción en 2 a 4 meses.</li>
+<li><strong>Buen proyecto, falta acotar:</strong> Tiene sentido, pero hay que definir mejor el MVP para cumplir el plazo. Lo acotamos contigo antes de empezar.</li>
+<li><strong>Conviene definir primero:</strong> La visión del producto todavía es ambigua. La Consultoría Digital (Servicio 01) define la arquitectura y el business case antes de invertir.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>El Camino (Así se ve el camino):</strong></p>
+<ul>
+<li><strong>Mes 1 · Estrategia y diseño:</strong> Definimos la arquitectura, prototipamos y validamos los flujos clave con usuarios reales.
+<ul>
+<li><em>Recibes:</em> Prototipo validado, Arquitectura técnica</li>
+</ul>
+</li>
+<li><strong>Mes 2 · Núcleo:</strong> Construimos la base de datos, las APIs, el acceso seguro y las pantallas principales.
+<ul>
+<li><em>Recibes:</em> Módulos principales en pruebas</li>
+</ul>
+</li>
+<li><strong>Mes 3 · Integraciones:</strong> Conectamos pagos, ERP o CRM, automatizamos pruebas y revisamos la seguridad contra OWASP Top 10.
+<ul>
+<li><em>Recibes:</em> Pruebas automatizadas, Revisión OWASP</li>
+</ul>
+</li>
+<li><strong>Mes 4 · Producción:</strong> Desplegamos en tu nube con monitoreo y telemetría desde el primer día.
+<ul>
+<li><em>Recibes:</em> Plataforma en producción</li>
+</ul>
+</li>
+<li><em>Nota:</em> Así se ve una plataforma de 4 meses. Un MVP acotado puede salir en 2; el plan exacto se define al acordarlo.</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Estrategia de producto:</strong> Qué construir primero y por qué, con los flujos validados con usuarios reales.</li>
+<li><strong>Diseño de interfaz y Design System:</strong> Pantallas probadas y un sistema de componentes para crecer sin rehacer.</li>
+<li><strong>Desarrollo full stack cloud-native:</strong> Web y móvil sobre una arquitectura desacoplada, lista para integrar IA.</li>
+<li><strong>Pruebas automatizadas:</strong> Cada cambio se prueba antes de llegar a producción.</li>
+<li><strong>Despliegue con SLA 99.9%:</strong> En tu nube y con monitoreo. El código y los datos son de tu empresa.</li>
+</ul>
+<p><strong>Comparación en el tiempo:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Dónde vas en el mes 4?
+<ul>
+<li><strong>Fábrica de software:</strong> Sigue programando. Nadie lo ha probado con usuarios.</li>
+<li><strong>Estudio de diseño:</strong> Entregó pantallas que nadie ha programado.</li>
+<li><strong>BluePixel:</strong> Plataforma en producción, validada con usuarios. (BluePixel)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Tabla de Comparación:</strong></p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Fábrica de software</th>
+<th>Estudio de diseño</th>
+<th>BluePixel FutureProof</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Validación</td>
+<td>Se programa lo que se pidió</td>
+<td>Diseño atractivo sin probar con usuarios</td>
+<td>Prototipo validado antes de programar</td>
+</tr>
+<tr>
+<td>Arquitectura</td>
+<td>Monolito con deuda técnica oculta</td>
+<td>Sin criterio de ingeniería</td>
+<td>Arquitectura desacoplada, lista para IA</td>
+</tr>
+<tr>
+<td>Propiedad</td>
+<td>Código retenido o frameworks propietarios</td>
+<td>Solo archivos de diseño</td>
+<td>Repositorios y nube a nombre de tu empresa</td>
+</tr>
+<tr>
+<td>Resultado</td>
+<td>Retrasos y presupuesto abierto</td>
+<td>Pantallas que nadie construyó</td>
+<td>Producción en 2 a 4 meses</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿De verdad cabe en 2 a 4 meses?</p>
+</li>
+<li>
+<p><strong>R:</strong> Sí, si el alcance se acota. Primero se construye el flujo que genera valor y lo secundario espera; el plazo exacto se define al acordar el alcance.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Construyen web y móvil?</p>
+</li>
+<li>
+<p><strong>R:</strong> Sí: plataformas y aplicaciones web, y apps móviles nativas o multiplataforma. Para decidir cuál te conviene, usa las guías de aplicaciones móviles y de desarrollo web.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Qué pasa después del lanzamiento?</p>
+</li>
+<li>
+<p><strong>R:</strong> Tú decides cómo sigue. BluePixel entrega el código fuente, la documentación y la arquitectura desacoplada en tu propia nube, para que tu equipo continúe sin depender de nosotros. Si prefieres que sigamos, la Evolución Digital (Servicio 04) suma un squad dedicado con un roadmap vivo de 6 o 12 meses para medir, corregir y agregar funciones.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿La plataforma puede llevar agentes de IA?</p>
+</li>
+<li>
+<p><strong>R:</strong> Sí. La arquitectura de cada plataforma se prepara desde el inicio para integrar agentes de IA, con conectores vía MCP y los datos en tu nube privada, así que se pueden sumar después sin rehacerla. Si lo que necesitas son agentes sobre los sistemas que ya tienes, sin construir una plataforma nueva, ese trabajo es el Servicio 02, Agentes &#x26; Automatización.</p>
+</li>
+</ul>
+<h3 id="04-evolucion-digital">04. Evolución Digital</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/servicios/evolucion-digital" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Etiqueta (Plazo):</strong> Roadmap vivo de 6 o 12 meses</li>
+<li><strong>H1:</strong> Evolución Digital: squad continuo, reducción de deuda técnica y CRO</li>
+<li><strong>Objetivo:</strong> Acompañamiento tecnológico continuo para optimizar, escalar y evolucionar activos digitales existentes.</li>
+<li><strong>Para Quién:</strong> Para evolucionar plataformas existentes con capacidades transversales, optimización continua y CRO.</li>
+<li><strong>Takeaway:</strong> Tu equipo tecnológico extendido para proteger la inversión y sostener el crecimiento.</li>
+</ul>
+<p><strong>El Conflicto (Lo que pasa después del lanzamiento):</strong></p>
+<ul>
+<li><strong>Deuda técnica que crece en silencio:</strong> Cada parche de emergencia hace la plataforma más frágil, más lenta y más cara de mantener.</li>
+<li><strong>Un equipo que no da abasto:</strong> Tu equipo apaga incendios todo el día y las mejoras se quedan en el backlog.</li>
+<li><strong>Mejoras sin un número detrás:</strong> Cada año se aprueba presupuesto, pero nadie puede mostrar qué movió en conversión o ingresos.</li>
+</ul>
+<p><strong>Autodiagnóstico:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Tu plataforma necesita un squad de evolución?</li>
+<li><strong>Subtítulo:</strong> Cuatro preguntas. El resultado se calcula en tu navegador y no te pedimos datos.
+<ul>
+<li><strong>Pregunta 1:</strong> ¿La plataforma ya está en producción con usuarios reales?
+<ul>
+<li>Sí, con uso diario (3 pts)</li>
+<li>Sí, recién lanzada (2 pts)</li>
+<li>Está por lanzarse (1 pts)</li>
+<li>Todavía no existe (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 2:</strong> ¿Qué tanto frena la deuda técnica las mejoras?
+<ul>
+<li>Mucho: cada cambio rompe algo (3 pts)</li>
+<li>Bastante: actualizamos solo cuando algo falla (2 pts)</li>
+<li>Poco: hay sprints de mantenimiento (1 pts)</li>
+<li>Nada: está bajo control (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 3:</strong> Cuando dirección pide una mejora, ¿cuánto tarda en salir?
+<ul>
+<li>Más de 3 meses, o no hay quién la haga (3 pts)</li>
+<li>Entre 1 y 3 meses (2 pts)</li>
+<li>Entre 2 y 4 semanas (1 pts)</li>
+<li>Menos de 2 semanas (0 pts)</li>
+</ul>
+</li>
+<li><strong>Pregunta 4:</strong> ¿Miden cómo cambian la conversión y la retención?
+<ul>
+<li>Sí, con telemetría y embudos (3 pts)</li>
+<li>Solo las ventas totales (2 pts)</li>
+<li>Nos enteramos por las quejas (1 pts)</li>
+<li>No medimos (0 pts)</li>
+</ul>
+</li>
+<li><strong>Resultados:</strong>
+<ul>
+<li><strong>Un squad es para ustedes:</strong> La plataforma ya genera valor y el equipo no alcanza a evolucionarla. Un squad dedicado puede empezar desde el primer sprint.</li>
+<li><strong>Conviene, empezando por estabilizar:</strong> Primero hay que bajar la deuda técnica y fijar una línea base; después se optimiza la conversión.</li>
+<li><strong>Todavía no es el momento:</strong> Si la plataforma no existe, empieza por Plataformas Digitales (Servicio 03). Si no hay datos, la Consultoría Digital (Servicio 01) arma la línea base.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>El Camino (Así trabaja el squad):</strong></p>
+<ul>
+<li><strong>Cada sprint · Entrega:</strong> Qué se construyó, qué está en pruebas y qué entra en el siguiente sprint.
+<ul>
+<li><em>Recibes:</em> Mejoras en producción</li>
+</ul>
+</li>
+<li><strong>Cada mes · Reporte:</strong> Qué dijeron los datos, qué se hizo y cómo se movieron los indicadores.
+<ul>
+<li><em>Recibes:</em> Reporte de impacto, UX Health Score</li>
+</ul>
+</li>
+<li><strong>Cada trimestre · Roadmap:</strong> Con dirección, se repriorizan los siguientes tres meses con la evidencia del trimestre.
+<ul>
+<li><em>Recibes:</em> Roadmap del trimestre</li>
+</ul>
+</li>
+<li><strong>Cada año · Balance:</strong> Qué cambió en el año, qué se aprendió y qué sigue en el próximo ciclo.
+<ul>
+<li><em>Recibes:</em> Balance anual</li>
+</ul>
+</li>
+<li><em>Nota:</em> Así se ve un roadmap vivo de 12 meses. La duración del sprint y las sesiones con dirección se definen al acordarlo.</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Squad dedicado:</strong> Tech Lead, AI Engineer, Senior Full Stack y especialista en UX/CRO; la mezcla se ajusta cada trimestre.</li>
+<li><strong>UX Health Score:</strong> La salud de la experiencia, medida contra tu línea base.</li>
+<li><strong>Reducción de deuda técnica:</strong> Refactorización y actualizaciones en cada sprint, no cuando algo falla.</li>
+<li><strong>Optimización de conversión (CRO):</strong> Experimentos sobre los flujos que más ingresos mueven.</li>
+<li><strong>Soporte con SLA empresarial:</strong> Monitoreo y respuesta ante incidentes de producción.</li>
+</ul>
+<p><strong>Comparación en el tiempo:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Dónde vas en el mes 6?
+<ul>
+<li><strong>Soporte tradicional:</strong> Atendiendo tickets. La deuda sigue creciendo.</li>
+<li><strong>Equipo interno saturado:</strong> Apagando incendios. El roadmap sigue en el backlog.</li>
+<li><strong>BluePixel:</strong> Dos trimestres de mejoras medidas contra tu línea base. (BluePixel)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Tabla de Comparación:</strong></p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Soporte tradicional</th>
+<th>Equipo interno saturado</th>
+<th>BluePixel FutureProof</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rol</td>
+<td>Reactivo: atiende tickets cuando algo se cae</td>
+<td>Resuelve las urgencias del día</td>
+<td>Proactivo: mejora la conversión y la experiencia</td>
+</tr>
+<tr>
+<td>Perfiles</td>
+<td>Asignados por hora</td>
+<td>Limitados a lo que ya conocen</td>
+<td>Squad senior multidisciplinario</td>
+</tr>
+<tr>
+<td>Deuda técnica</td>
+<td>Crece mes con mes</td>
+<td>Difícil de priorizar frente a la operación</td>
+<td>Se reduce en cada sprint</td>
+</tr>
+<tr>
+<td>Negocio</td>
+<td>Ajeno a tus ventas</td>
+<td>Desconectado de marketing</td>
+<td>Cada mejora se mide en indicadores del negocio</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Cuál es el compromiso mínimo?</p>
+</li>
+<li>
+<p><strong>R:</strong> Un roadmap vivo de 6 meses; también se puede contratar por 12. Funciona como un retainer mensual con un squad dedicado, y cada trimestre se revisa el roadmap con dirección y se reprioriza el backlog con la evidencia de lo que se midió. Así el alcance se ajusta en el camino, sin esperar al final del contrato.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Podemos cambiar los perfiles del squad?</p>
+</li>
+<li>
+<p><strong>R:</strong> Sí. El squad base combina Tech Lead, AI Engineer, Senior Full Stack y UX/CRO Specialist, y la mezcla se revisa cada trimestre junto con el roadmap. Si un trimestre pide más trabajo de IA y otro más optimización de conversión, se ajustan los especialistas sin cambiar de proveedor ni volver a empezar con alguien que no conoce tu plataforma.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Cómo se compara con contratar un equipo propio?</p>
+</li>
+<li>
+<p><strong>R:</strong> Te ahorras reclutar, retener y coordinar cuatro perfiles senior distintos, y el squad llega con su método. El costo se compara con tus números al acordar el alcance.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Sirve si la plataforma la hizo otro proveedor?</p>
+</li>
+<li>
+<p><strong>R:</strong> Sí. Antes de proponer cambios, el squad revisa el código, la arquitectura y la deuda técnica, y mide la línea base de la plataforma con el UX Health Score. Con eso se arma el primer roadmap, así que las mejoras se priorizan con evidencia de cómo funciona hoy la plataforma y no con supuestos sobre cómo se construyó.</p>
+</li>
+</ul>
+<hr>
+<h2 id="parte-b-paginas-de-capacidades-6-areas-tecnicas">⚙️ PARTE B: PÁGINAS DE CAPACIDADES (6 Áreas Técnicas)</h2>
+<h3 id="1-ux-ui-y-estrategia-de-producto">1. UX/UI y Estrategia de Producto</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/capacidades/ux-ui-product-strategy" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Badge Canónico:</strong> IMPATH™ Enabled</li>
+<li><strong>H1:</strong> Diseño UX/UI y estrategia de producto para empresas</li>
+<li><strong>Resumen:</strong> Diseño UX/UI y estrategia de producto basados en la conducta real del usuario.</li>
+<li><strong>Lead / Subtítulo:</strong> Investigamos la conducta real del usuario, probamos el prototipo con usuarios reales y entregamos un Design System listo para código, con la metodología IMPATH™.</li>
+</ul>
+<p><strong>Foco Principal:</strong></p>
+<ul>
+<li>Investigación de usuarios y psicología conductual</li>
+<li>Arquitectura de información y flujos clave</li>
+<li>Interfaces diseñadas y medidas por conversión</li>
+<li>Prototipado interactivo validado con usuarios reales</li>
+<li>Design Systems y metodología IMPATH™</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Mapa de fricción del journey del usuario:</strong> Dónde y por qué se atora el usuario, paso por paso.</li>
+<li><strong>Prototipo interactivo validado:</strong> Probado con usuarios reales antes de escribir código.</li>
+<li><strong>Design System con tokens listos para consumirse en código:</strong> Componentes y tokens documentados que ingeniería usa tal cual.</li>
+<li><strong>Backlog de mejoras priorizado por impacto:</strong> Qué mejorar primero, ordenado por impacto.</li>
+</ul>
+<p><strong>Retos que resuelve (Problema vs Antídoto):</strong></p>
+<ul>
+<li><strong>Problema:</strong> Se diseña por opinión y el usuario abandona siempre en el mismo paso.
+<strong>Antídoto:</strong> Investigamos la conducta real y mapeamos la fricción del journey antes de diseñar.</li>
+<li><strong>Problema:</strong> El prototipo se aprueba en una junta y falla con el primer usuario.
+<strong>Antídoto:</strong> Lo probamos con usuarios reales antes de pasar a desarrollo.</li>
+<li><strong>Problema:</strong> Cada pantalla nueva se ve distinta y desarrollo la rehace a mano.
+<strong>Antídoto:</strong> Un Design System con tokens que ingeniería usa directo en código.</li>
+</ul>
+<p><strong>Educativos (Glosario):</strong></p>
+<ul>
+<li><strong>¿Qué es un Design System?:</strong> Un Design System es el conjunto de componentes, reglas y tokens de diseño que comparten diseño e ingeniería: un botón se define una vez y se usa igual en todo el producto. Reduce el retrabajo y mantiene la interfaz coherente cuando el producto crece.</li>
+</ul>
+<p><strong>Bloque Demo:</strong></p>
+<ul>
+<li><strong>Título:</strong> Mueve un control. Mira cómo muta el sistema.</li>
+<li><strong>Intro:</strong> Este sitio está construido sobre tokens de diseño paramétricos: tono, densidad, radio de las esquinas, ritmo y peso de los titulares. Es la misma lógica con la que entregamos un Design System: un cambio de token se propaga a toda la interfaz.</li>
+</ul>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Cuál es la diferencia entre UX/UI y estrategia de producto?
+<strong>R:</strong> UX/UI define cómo se ve y se siente el producto; la estrategia de producto define qué producto construir, para quién y en qué orden. Las trabajamos juntas para que el diseño responda a un objetivo de negocio medible.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Validan el diseño con usuarios reales?
+<strong>R:</strong> Sí. En Plataformas Digitales (Servicio 03) el prototipo interactivo se prueba con usuarios reales antes de pasar a desarrollo, para corregir lo que no se entiende cuando todavía es barato cambiarlo. La investigación sigue la metodología IMPATH™, que conecta la conducta del usuario con su costo para el negocio, y lo que se aprende queda en el backlog priorizado por impacto.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Entregan un Design System?
+<strong>R:</strong> Sí. BluePixel entrega un Design System con componentes y tokens documentados (color, tipografía, espaciado y estados) que el equipo de ingeniería consume directamente en el código. Así la interfaz se mantiene igual en web y móvil, y cada pantalla nueva se arma con piezas ya probadas en lugar de rediseñarse desde cero, lo que también acelera las siguientes entregas.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿También desarrollan el código?
+<strong>R:</strong> Sí. La capacidad de Desarrollo de Software construye lo que se diseña, o entregamos el Design System y el prototipo documentados para que los programe tu equipo.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Pueden rediseñar una plataforma que ya está en producción?
+<strong>R:</strong> Sí. Primero se mapea dónde se atora el usuario con un diagnóstico de fricción IMPATH™ y datos de comportamiento, y después se rediseña lo que más impacto tiene, por partes y sin detener la operación. Así la plataforma mejora en cada entrega en lugar de esperar un relanzamiento completo; un ejemplo es el rediseño de la compra móvil de una cadena de retail.</p>
+</li>
+</ul>
+<h3 id="2-desarrollo-de-software">2. Desarrollo de Software</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/capacidades/software-engineering" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Badge Canónico:</strong> Cloud-Native Architecture</li>
+<li><strong>H1:</strong> Desarrollo de software a la medida para empresas, listo para evolucionar</li>
+<li><strong>Resumen:</strong> Software a la medida, cloud-native y listo para evolucionar.</li>
+<li><strong>Lead / Subtítulo:</strong> Plataformas web y móviles cloud-native sobre React, Node.js, Python, TypeScript y PostgreSQL, con pruebas automatizadas en cada despliegue.</li>
+</ul>
+<p><strong>Foco Principal:</strong></p>
+<ul>
+<li>Desarrollo web y móvil moderno (React, Node.js, Python, TypeScript, PostgreSQL)</li>
+<li>Arquitecturas serverless y contenedores</li>
+<li>APIs robustas y microservicios</li>
+<li>Pipelines CI/CD automatizados</li>
+<li>Arquitectura Zero-Trust desde el primer sprint</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Arquitectura desacoplada documentada:</strong> Diagramas y decisiones para que tu equipo entienda y mantenga el sistema.</li>
+<li><strong>Código fuente y datos en la nube privada del cliente:</strong> Todo vive en tu nube, no en la nuestra.</li>
+<li><strong>Pruebas automatizadas y despliegue productivo:</strong> Cada cambio pasa por pruebas antes de llegar a producción.</li>
+<li><strong>Observabilidad y SLA 99.9% en la modalidad Plataformas Digitales:</strong> Errores y disponibilidad a la vista desde el primer despliegue.</li>
+<li><strong>Infraestructura como código:</strong> Tu nube se crea con código versionado: se puede repetir y auditar.</li>
+<li><strong>APIs documentadas con OpenAPI:</strong> Contratos claros para que otros sistemas y equipos se conecten.</li>
+</ul>
+<p><strong>Retos que resuelve (Problema vs Antídoto):</strong></p>
+<ul>
+<li><strong>Problema:</strong> Agregar una función rompe tres partes del sistema.
+<strong>Antídoto:</strong> Arquitectura desacoplada y pruebas automatizadas en cada despliegue.</li>
+<li><strong>Problema:</strong> Lanzar una versión exige coordinación manual y ventanas nocturnas.
+<strong>Antídoto:</strong> Un pipeline CI/CD que prueba y despliega cada cambio.</li>
+<li><strong>Problema:</strong> Cambiar de proveedor o de modelo obliga a rehacer la plataforma.
+<strong>Antídoto:</strong> Protocolos abiertos y cero vendor lock-in: el cambio es configuración.</li>
+</ul>
+<p><strong>Educativos (Glosario):</strong></p>
+<ul>
+<li><strong>¿Qué es una arquitectura desacoplada?:</strong> Una arquitectura desacoplada divide el sistema en piezas independientes que se comunican por interfaces estables, de modo que una se puede cambiar o escalar sin romper las demás. Es lo que permite cambiar de proveedor de nube o de modelo de IA por configuración.</li>
+<li><strong>Una empresa de desarrollo de software que se mide en producción:</strong> Cada plataforma sale con pruebas automatizadas, pipeline de despliegue y arquitectura desacoplada: cambiar un proveedor o un modelo es configuración, no rehacer el sistema.</li>
+</ul>
+<p><strong>Bloque Demo:</strong></p>
+<ul>
+<li><strong>Título:</strong> La ingeniería se mide. Empezando por este sitio.</li>
+<li><strong>Intro:</strong> Lo que pesa esta página y la más pesada del sitio, medido al compilarlo, contra nuestro presupuesto de rendimiento. Si cambia el código, cambia la cifra.</li>
+</ul>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Qué tecnologías usan?
+<strong>R:</strong> React, Node.js, Python, TypeScript y PostgreSQL, sobre arquitecturas serverless o de contenedores en AWS, GCP o Azure, con pipelines CI/CD automatizados. La elección final depende de tu stack actual.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿De quién es el código?
+<strong>R:</strong> De tu empresa: los repositorios y la infraestructura viven en tu cuenta de nube, con arquitectura desacoplada y protocolos abiertos. Las condiciones de propiedad se fijan en el contrato de cada proyecto.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Trabajan junto a nuestro equipo interno?
+<strong>R:</strong> Sí. Podemos sumarnos a tu equipo como una célula más o entregar módulos completos listos para producción, con el código y la documentación en tus repositorios.</p>
+</li>
+</ul>
+<h3 id="3-agentes-de-ia-y-automatizacion">3. Agentes de IA y Automatización</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/capacidades/agentic-ai-automation" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Badge Canónico:</strong> Agentic Automation</li>
+<li><strong>H1:</strong> Agentes de IA para empresas, en producción y dentro de tu nube privada</li>
+<li><strong>Resumen:</strong> Agentes de IA en producción, conectados a tus sistemas y en tu nube privada.</li>
+<li><strong>Lead / Subtítulo:</strong> El agente consulta tu ERP o tu CRM vía MCP, ejecuta la tarea y cita su fuente. Sin reemplazar tus sistemas.</li>
+</ul>
+<p><strong>Foco Principal:</strong></p>
+<ul>
+<li>Agentes de IA autónomos y orquestación multi-agente</li>
+<li>RAG privado sobre datos corporativos reales</li>
+<li>Conectores determinísticos vía protocolo MCP (SAP, Salesforce, ERPs, APIs bancarias y logísticas)</li>
+<li>Despliegue en la nube privada del cliente</li>
+<li>Guardrails y DLP para IA</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Agente en producción sobre tu stack actual:</strong> Funcionando sobre tus sistemas actuales, sin reemplazarlos.</li>
+<li><strong>Base de conocimiento con citas y abstención cuando no hay sustento:</strong> Cada respuesta dice de qué documento salió.</li>
+<li><strong>Trazabilidad de cada ejecución del agente:</strong> Qué hizo el agente, cuándo y con qué datos.</li>
+<li><strong>Arquitectura agnóstica de proveedor: el modelo se cambia por configuración:</strong> Si sale un modelo mejor, se cambia por configuración.</li>
+</ul>
+<p><strong>Retos que resuelve (Problema vs Antídoto):</strong></p>
+<ul>
+<li><strong>Problema:</strong> Tu equipo copia datos a mano entre el ERP, el CRM y el correo.
+<strong>Antídoto:</strong> Un agente consulta tus sistemas vía MCP y ejecuta la tarea.</li>
+<li><strong>Problema:</strong> Un asistente genérico responde con seguridad algo que no está en tus documentos.
+<strong>Antídoto:</strong> RAG privado que cita su fuente y se abstiene cuando no hay sustento.</li>
+<li><strong>Problema:</strong> Conectar IA parece exigir que reemplaces tus sistemas.
+<strong>Antídoto:</strong> Conectores sobre lo que ya tienes: SAP, Salesforce, ERPs y APIs.</li>
+</ul>
+<p><strong>Educativos (Glosario):</strong></p>
+<ul>
+<li><strong>¿Qué es un agente de IA?:</strong> Un sistema que recibe un objetivo, decide los pasos y usa herramientas (consultar un sistema, calcular, enviar una solicitud) para cumplirlo, con supervisión y límites definidos. Un asistente conversa; un agente ejecuta. Por ejemplo: resuelve una solicitud de un cliente de principio a fin, concilia facturas contra el ERP o valida los documentos para dar de alta a un proveedor.</li>
+<li><strong>¿Qué es RAG?:</strong> RAG (generación aumentada por recuperación) es la técnica en la que el modelo primero busca fragmentos relevantes en una base de conocimiento propia y responde apoyándose en ellos, citando la fuente. Reduce las respuestas inventadas porque el agente puede abstenerse cuando no encuentra sustento.</li>
+<li><strong>¿En qué se diferencia de RPA?:</strong> RPA automatiza pasos fijos y predecibles; un agente maneja excepciones y lenguaje natural. En proyectos reales suelen combinarse: RPA para lo repetitivo y agentes para lo que requiere criterio.</li>
+</ul>
+<p><strong>Bloque Demo:</strong></p>
+<ul>
+<li><strong>Título:</strong> Un agente que prefiere callar a inventar.</li>
+<li><strong>Intro:</strong> Pregúntale algo al agente de abajo. Responde solo si encuentra sustento en sus fuentes y cita de dónde salió; si no, se abstiene y escala. Tú controlas el umbral de confianza y ves el cálculo.</li>
+</ul>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Mis datos se envían a un modelo público?
+<strong>R:</strong> No por defecto. BluePixel diseña los agentes para que los datos y el código residan en tu nube privada (VPC), y el RAG consulta tus documentos ahí mismo. Qué modelo se usa y dónde corre se define contigo según la sensibilidad de los datos, con guardrails y DLP que impiden que información confidencial salga hacia servicios externos.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Reemplazan mi ERP o mi CRM?
+<strong>R:</strong> No. BluePixel conecta los agentes a los sistemas que ya usas, como SAP, Salesforce, otros ERP y CRM o APIs bancarias y logísticas, mediante conectores determinísticos vía MCP, un protocolo abierto. Tus sistemas siguen siendo la fuente de la información: el agente consulta y ejecuta acciones sobre ellos con permisos definidos, y cada ejecución queda registrada.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Con qué modelos de IA trabajan?
+<strong>R:</strong> Con el que mejor resuelva tu caso según precisión, costo de inferencia y dónde deben vivir los datos; no hay un proveedor fijo. La arquitectura de BluePixel es agnóstica: el modelo se conecta por configuración, así que si mañana sale uno mejor o más barato se cambia sin rehacer el agente. El costo de inferencia se calcula antes de construir.</p>
+</li>
+</ul>
+<h3 id="4-datos-y-analitica">4. Datos y Analítica</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/capacidades/data-analytics" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Badge Canónico:</strong> Mixpanel Telemetry</li>
+<li><strong>H1:</strong> Analítica de datos y dashboards para empresas, con cada cifra rastreable</li>
+<li><strong>Resumen:</strong> Telemetría de producto y dashboards ejecutivos que se pueden auditar.</li>
+<li><strong>Lead / Subtítulo:</strong> Qué hace tu usuario y qué KPI se movió, en un tablero para dirección: telemetría de producto, pipelines de datos y dashboards ejecutivos.</li>
+</ul>
+<p><strong>Foco Principal:</strong></p>
+<ul>
+<li>Instrumentación de telemetría de producto (Mixpanel)</li>
+<li>Pipelines de datos</li>
+<li>Tableros ejecutivos en tiempo real</li>
+<li>Analítica de comportamiento y análisis predictivo de clientes</li>
+<li>KPIs directivos</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Plan de medición y taxonomía de eventos:</strong> Qué se mide, con qué nombre y para qué decisión.</li>
+<li><strong>Dashboards ejecutivos:</strong> Los KPIs de dirección en una sola vista.</li>
+<li><strong>UX Health Score continuo dentro de Evolución Digital:</strong> La salud de la experiencia, medida mes a mes.</li>
+</ul>
+<p><strong>Retos que resuelve (Problema vs Antídoto):</strong></p>
+<ul>
+<li><strong>Problema:</strong> Dirección recibe cifras distintas según quién arme el reporte.
+<strong>Antídoto:</strong> Una sola taxonomía de eventos y cada cifra rastreable a su origen.</li>
+<li><strong>Problema:</strong> Sabes cuántos usuarios entran, pero no dónde abandonan.
+<strong>Antídoto:</strong> Telemetría de producto que muestra el recorrido real.</li>
+<li><strong>Problema:</strong> El reporte llega tarde y la decisión ya se tomó sin él.
+<strong>Antídoto:</strong> Tableros que se actualizan solos, construidos alrededor de los KPIs de dirección.</li>
+</ul>
+<p><strong>Educativos (Glosario):</strong></p>
+<ul>
+<li><strong>¿Qué es la telemetría de producto?:</strong> La telemetría de producto es el registro de lo que hacen los usuarios dentro de una plataforma (qué abren, dónde se detienen, dónde abandonan), con nombres de eventos definidos de antemano. Convierte las suposiciones en evidencia al decidir qué mejorar primero.</li>
+<li><strong>¿Qué es la analítica predictiva?:</strong> La analítica tiene tres escalones: descriptiva (qué pasó), diagnóstica (por qué pasó) y predictiva (qué va a pasar). La predictiva usa los datos históricos y de comportamiento para anticipar, por ejemplo, qué clientes están por irse, y actuar antes de que pase.</li>
+</ul>
+<p><strong>Bloque Demo:</strong></p>
+<ul>
+<li><strong>Título:</strong> Esto es lo que este sitio mide de tu visita.</li>
+<li><strong>Intro:</strong> Cada evento que este sitio genera pasa por el dataLayer de tu navegador. Aquí lo ves en vivo, junto con tu estado de consentimiento. Nada de esto sale de tu navegador hacia nuestro sitio.</li>
+</ul>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Qué herramientas de analítica usan?
+<strong>R:</strong> Mixpanel para la telemetría de producto, es decir, qué hacen los usuarios dentro de la plataforma, y pipelines de datos que llevan esa información a tableros ejecutivos. Los tableros se construyen sobre la herramienta que tu empresa ya usa, como Power BI, Tableau o Looker, para no sumar otra licencia. Cada cifra queda rastreable hasta el evento que la originó.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿La medición respeta el consentimiento del usuario?
+<strong>R:</strong> Sí. Diseñamos la medición para respetar el consentimiento del usuario y la LFPDPPP; en este sitio, las señales de medición y publicidad nacen denegadas hasta que el visitante decide.</p>
+</li>
+</ul>
+<h3 id="5-seguridad-y-confiabilidad">5. Seguridad y Confiabilidad</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/capacidades/security-reliability" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Badge Canónico:</strong> CyberVadis &#x26; OWASP</li>
+<li><strong>H1:</strong> Software seguro y alta disponibilidad, diseñados desde el primer sprint</li>
+<li><strong>Resumen:</strong> Seguridad y alta disponibilidad como propiedad de lo que construimos.</li>
+<li><strong>Lead / Subtítulo:</strong> Zero-Trust, hardening OWASP Top 10 en cada release y un pipeline que se bloquea ante dependencias vulnerables. Cifrado y aislamiento dentro de tu VPC.</li>
+</ul>
+<p><strong>Foco Principal:</strong></p>
+<ul>
+<li>Arquitectura Zero-Trust desde el primer sprint</li>
+<li>Hardening OWASP Top 10 en cada release</li>
+<li>SAST y escaneo de dependencias que bloquean el pipeline CI/CD</li>
+<li>Cifrado en reposo y en tránsito, y aislamiento en VPC</li>
+<li>Guardrails y DLP para implementaciones de IA</li>
+<li>Remediación de hallazgos que entrega una firma externa</li>
+<li>Controles técnicos documentados para cuestionarios de proveedor</li>
+<li>Alta disponibilidad con SLA 99.9%</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Controles técnicos documentados:</strong> Cifrado, aislamiento en VPC y trazabilidad de accesos, por escrito.</li>
+<li><strong>Pipeline con análisis de código y escaneo de dependencias:</strong> El despliegue se detiene si aparece una vulnerabilidad conocida.</li>
+<li><strong>Plan de remediación de hallazgos de terceros:</strong> Corregimos en código y arquitectura lo que encuentre una firma externa.</li>
+<li><strong>Matriz de accesos:</strong> Quién puede hacer qué en cada sistema, con el mínimo privilegio necesario.</li>
+</ul>
+<p><strong>Retos que resuelve (Problema vs Antídoto):</strong></p>
+<ul>
+<li><strong>Problema:</strong> La seguridad se revisa al final, cuando corregir cuesta más.
+<strong>Antídoto:</strong> Zero-Trust y hardening OWASP Top 10 desde el primer sprint.</li>
+<li><strong>Problema:</strong> Una dependencia vulnerable llega a producción sin que nadie lo note.
+<strong>Antídoto:</strong> Análisis de código y escaneo de dependencias que bloquean el pipeline.</li>
+<li><strong>Problema:</strong> El cuestionario de seguridad de un cliente frena la venta.
+<strong>Antídoto:</strong> Controles técnicos documentados como base para responderlo.</li>
+</ul>
+<p><strong>Educativos (Glosario):</strong></p>
+<ul>
+<li><strong>¿Qué es la arquitectura Zero-Trust?:</strong> Zero-Trust es un modelo de seguridad en el que ningún usuario, servicio ni red se considera confiable por defecto: cada acceso se verifica y se limita a lo mínimo necesario. Reduce el daño posible si una credencial o un componente queda expuesto.</li>
+</ul>
+<p><strong>Soberanía Técnica:</strong></p>
+<ul>
+<li><strong>Tu infraestructura:</strong> Desplegamos dentro de la nube privada (VPC) de tu empresa, con aislamiento de red y cifrado en reposo y en tránsito.</li>
+<li><strong>Tus datos:</strong> Tus datos corporativos residen en tu nube privada. Los agentes y el RAG trabajan sobre ellos dentro de ese perímetro, con guardrails y DLP para IA.</li>
+<li><strong>Tu código fuente:</strong> El código que construimos reside en tu nube privada y sigue protocolos abiertos como MCP. Sin vendor lock-in: un nuevo modelo o proveedor se cambia por configuración.</li>
+</ul>
+<p><strong>Bloque Demo:</strong></p>
+<ul>
+<li><strong>Título:</strong> Controles verificables de este mismo sitio.</li>
+<li><strong>Intro:</strong> Esta lista sale de la medición automática del sitio al compilarlo: cabeceras de seguridad, señales de consentimiento y cargas de terceros. Incluye lo que todavía está pendiente de endurecer.</li>
+</ul>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Qué credenciales de seguridad tienen?
+<strong>R:</strong> BluePixel tiene la certificación CyberVadis vigente, que evalúa sus prácticas de seguridad como proveedor, y aplica OWASP Top 10 en cada release. Esto se complementa con análisis de código (SAST) y escaneo de dependencias en el pipeline de cada proyecto. Para los cuestionarios de seguridad de proveedor se entregan los controles técnicos documentados, de modo que tu equipo de riesgo revisa evidencia concreta y no solo una lista de buenas intenciones.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Qué cubre exactamente la capacidad de seguridad?
+<strong>R:</strong> La seguridad de lo que construimos: arquitectura Zero-Trust, hardening OWASP Top 10 en cada release, análisis de código y dependencias en el pipeline, cifrado y aislamiento en VPC, y guardrails para IA. La auditoría independiente la hace una firma especializada; nosotros corregimos lo que encuentre.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Pueden remediar los hallazgos de una auditoría externa?
+<strong>R:</strong> Sí. BluePixel recibe los hallazgos que entregue una firma de seguridad independiente, los prioriza por riesgo y los corrige en el código, en la configuración de la nube y en la arquitectura. Cada corrección queda documentada para que la firma la vuelva a verificar. La auditoría en sí no la hacemos nosotros: la hace la firma especializada, y nosotros remediamos.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Pueden ayudarme a responder el cuestionario de seguridad de un proveedor?
+<strong>R:</strong> En lo técnico, sí. Entregamos controles técnicos documentados (cifrado, aislamiento en VPC, trazabilidad de accesos, análisis de código y dependencias en el pipeline) que sirven de base para responder los cuestionarios de proveedor de tu cliente o de tu área de compras.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Dónde viven mis datos?
+<strong>R:</strong> En la nube privada (VPC) de tu empresa, no en la de BluePixel. Los datos se cifran en reposo y en tránsito, y cada acceso queda registrado para auditarlo. Como la arquitectura usa protocolos abiertos y la infraestructura vive en tu cuenta, si un día cambias de proveedor de nube o de equipo, los datos y el código se quedan contigo.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Puedo cambiar de proveedor de nube o de modelo de IA más adelante?
+<strong>R:</strong> Sí. Diseñamos arquitecturas desacopladas sobre protocolos abiertos como MCP, sin vendor lock-in: si sale un nuevo modelo o cambias de proveedor, el sistema conmuta por configuración sin rehacer la plataforma. El código y los datos residen en tu nube privada.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Cómo se protegen los datos que usa un agente de IA?
+<strong>R:</strong> Con guardrails y DLP para IA, blindaje de prompts y de los datos del RAG, aislamiento en tu VPC y cifrado en reposo y en tránsito.</p>
+</li>
+</ul>
+<h3 id="6-estrategia-y-consultoria">6. Estrategia y Consultoría</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/capacidades/digital-consulting" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>Badge Canónico:</strong> FutureProof™ Framework</li>
+<li><strong>H1:</strong> Consultoría digital: ROI, roadmap y costo de inacción antes de invertir</li>
+<li><strong>Resumen:</strong> Roadmap, business case y costo de inacción antes de invertir.</li>
+<li><strong>Lead / Subtítulo:</strong> Antes de comprometer capital en desarrollo, cuantificamos el costo de no actuar, priorizamos el backlog por impacto financiero y entregamos un business case con ROI proyectado.</li>
+</ul>
+<p><strong>Foco Principal:</strong></p>
+<ul>
+<li>Estrategia de transformación digital</li>
+<li>Valuación del costo de inacción</li>
+<li>Priorización de backlog por ROI</li>
+<li>Roadmaps ejecutivos trimestrales</li>
+<li>Discovery y FutureProof™ Framework</li>
+</ul>
+<p><strong>Entregables:</strong></p>
+<ul>
+<li><strong>Diagnóstico de fricción operativa IMPATH™:</strong> Dónde se pierden tiempo y dinero en la operación.</li>
+<li><strong>Arquitectura técnica recomendada:</strong> Qué construir y sobre qué, antes de escribir código.</li>
+<li><strong>Backlog priorizado por impacto financiero:</strong> Qué va primero, según su impacto financiero.</li>
+<li><strong>Business case con ROI proyectado y costo de inacción:</strong> El retorno proyectado y lo que cuesta esperar.</li>
+</ul>
+<p><strong>Retos que resuelve (Problema vs Antídoto):</strong></p>
+<ul>
+<li><strong>Problema:</strong> Se aprueba presupuesto para construir sin saber cuánto cuesta no hacerlo.
+<strong>Antídoto:</strong> Cuantificamos el costo de inacción antes de invertir.</li>
+<li><strong>Problema:</strong> El backlog se ordena según quién lo pide con más fuerza.
+<strong>Antídoto:</strong> Backlog priorizado por impacto financiero.</li>
+<li><strong>Problema:</strong> El piloto de IA que nadie puede defender ante el consejo se queda en el limbo.
+<strong>Antídoto:</strong> Un business case con ROI y un roadmap trimestral alineado con los objetivos financieros.</li>
+</ul>
+<p><strong>Educativos (Glosario):</strong></p>
+<ul>
+<li><strong>¿Qué es el costo de inacción?:</strong> El costo de inacción es lo que una empresa pierde cada mes por no resolver un problema: horas en tareas manuales, errores y oportunidades que no se cierran. Calcularlo antes de invertir permite comparar el costo de actuar contra el de esperar.</li>
+</ul>
+<p><strong>Bloque Demo:</strong></p>
+<ul>
+<li><strong>Título:</strong> Calcula el costo de esperar, con tus propios supuestos.</li>
+<li><strong>Intro:</strong> Una calculadora sencilla del costo de inacción de una tarea manual. Todas las cifras las pones tú y la fórmula es visible: es una estimación para empezar la conversación, no una promesa de ahorro.</li>
+</ul>
+<p><strong>Preguntas Frecuentes (FAQ):</strong></p>
+<ul>
+<li>
+<p><strong>P:</strong> ¿Recomiendan software de terceros o solo desarrollo a la medida?
+<strong>R:</strong> Recomendamos lo que más convenga al negocio, aunque no sea desarrollo. Si una licencia que ya existe resuelve el problema mejor y más barato que construir, eso va en la recomendación. La decisión sale del business case: se compara el costo de construir, el de licenciar y el costo de inacción, y se deja por escrito en el roadmap.</p>
+</li>
+<li>
+<p><strong>P:</strong> ¿Es obligatorio empezar por la consultoría?
+<strong>R:</strong> No. Los cuatro servicios de BluePixel son formas independientes de trabajar: puedes entrar directo a Agentes &#x26; Automatización, a Plataformas Digitales o a Evolución Digital. La consultoría conviene cuando todavía no está claro qué construir, en qué orden o con qué retorno; en 2 a 4 semanas entrega el backlog priorizado y el business case.</p>
+</li>
+</ul>
+<hr>
+<h2 id="parte-c-blog">📝 PARTE C: BLOG</h2>
+<h3 id="indice-del-blog">Índice del blog</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/" target="_blank" rel="noopener">Ver maqueta en vivo</a>. Son dos bloques: «Lo que estamos escribiendo», al final del Home, para las filas de artículos, y la rejilla de <a href="https://bluepixelpruebas.github.io/bluepixel-preview/casos-de-estudio" target="_blank" rel="noopener">Casos de estudio</a> para las tarjetas.</li>
+<li><strong>URL en bluepixel.mx:</strong> <code>/es/blog</code></li>
+<li><strong>Title:</strong> Blog de Agentes de IA, Software y UX para Empresas | BluePixel</li>
+<li><strong>Meta descripción:</strong> Guías para decidir qué construir, cuánto cuesta y cómo medirlo: agentes de IA, desarrollo de software, UX/UI y datos para empresas en México.</li>
+<li><strong>Etiqueta:</strong> Blog</li>
+<li><strong>H1:</strong> Ideas sobre agentes de IA, software y UX para empresas</li>
+<li><strong>Lead / Subtítulo:</strong> Guías para decidir qué construir, cuánto cuesta y cómo medir el resultado, escritas por el equipo que diseña y construye las plataformas.</li>
+</ul>
+<p><strong>Cómo se diseña:</strong></p>
+<ul>
+<li>Mismo sistema de diseño de la maqueta: Onest, fondo oscuro, tarjetas con borde fino y esquinas redondeadas.</li>
+<li>Categorías como enlaces de texto, con la activa subrayada y sin cápsulas. Cada categoría es una página con su propia URL.</li>
+<li>Tarjetas sin fotos de banco: captura real de un proyecto o portada tipográfica.</li>
+<li>3 columnas en escritorio y 1 en móvil.</li>
+<li>Sin newsletter ni ventanas emergentes.</li>
+</ul>
+<p><strong>Categorías:</strong></p>
+<ul>
+<li>Todo · Agentes de IA y automatización · Desarrollo de software · UX/UI y producto · Datos y analítica · Estrategia y ROI · Casos de éxito</li>
+</ul>
+<p><strong>Artículo destacado (tarjeta ancha):</strong></p>
+<ul>
+<li>Agentes de IA y automatización · {N} min de lectura</li>
+<li>Automatización e integración de agentes con IA: qué es y qué beneficios tiene para una empresa</li>
+<li>{Una línea de extracto}</li>
+<li>Actualizado el {fecha}</li>
+<li>Leer el artículo →</li>
+</ul>
+<p><strong>Tarjeta de artículo:</strong></p>
+<ul>
+<li>{Categoría} · {N} min de lectura</li>
+<li>{Título del artículo}</li>
+<li>{Una línea de extracto}</li>
+<li>Actualizado el {fecha}</li>
+</ul>
+<p><strong>Puente a servicios:</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Ya sabes qué quieres resolver?</li>
+<li><strong>Servicio 01 · Consultoría Digital:</strong> Diagnóstico, backlog y ROI antes de invertir · 2 a 4 semanas</li>
+<li><strong>Servicio 02 · Agentes &#x26; Automatización:</strong> Agentes de IA sobre los sistemas que ya tienes · 2 a 4 semanas</li>
+<li><strong>Servicio 03 · Plataformas Digitales:</strong> Plataformas y MVPs desde cero con UX validado · 2 a 4 meses</li>
+<li><strong>Servicio 04 · Evolución Digital:</strong> Roadmap vivo y squad continuo · 6 o 12 meses</li>
+</ul>
+<p><strong>Cierre (llamado a la acción):</strong></p>
+<ul>
+<li><strong>Título:</strong> ¿Empezamos a evolucionar tu operación?</li>
+<li><strong>Botones:</strong> Agenda una cita · Escríbenos por WhatsApp</li>
+<li><strong>Nota:</strong> Te responde una persona del equipo.</li>
+</ul>
+<h3 id="plantilla-de-articulo">Plantilla de artículo</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/casos-de-estudio/plataforma-financiamiento-inmobiliario" target="_blank" rel="noopener">Ver maqueta en vivo</a>. El sitio nuevo no tiene artículos; de esta página se toman la tipografía, las cifras, las tablas y el cierre.</li>
+<li><strong>URL en bluepixel.mx:</strong> <code>/es/blog/{slug}</code></li>
+<li><strong>Title:</strong> {La pregunta del artículo} | BluePixel (60 caracteres como máximo)</li>
+<li><strong>Etiqueta:</strong> {Categoría} · {N} min de lectura</li>
+<li><strong>H1:</strong> {La pregunta del artículo, con una sola palabra clave principal}</li>
+<li><strong>Términos en inglés:</strong>
+<ul>
+<li>El title usa el término como se busca, por ejemplo «Data pipelines».</li>
+<li>El H1 va en español, con el término en inglés entre paréntesis la primera vez, por ejemplo «Pipelines de datos (data pipelines)».</li>
+<li>La URL no cambia.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Cómo se diseña (bloques en orden):</strong></p>
+<ol>
+<li><strong>Migas:</strong> Inicio / Blog / {Categoría}</li>
+<li><strong>Etiqueta y H1</strong></li>
+<li><strong>En corto:</strong> caja destacada con el título fijo «En corto». Dos o tres oraciones; la primera responde el H1.</li>
+<li><strong>Ficha:</strong> Actualizado el {fecha} · Equipo de {capacidad} de BluePixel · {N} min de lectura</li>
+<li><strong>Índice:</strong> título fijo «En este artículo» y la lista de los H2 con anclas. Siempre visible; en escritorio se queda fijo al bajar.</li>
+<li><strong>Cuerpo:</strong>
+<ul>
+<li>Subtítulos H2 en forma de pregunta y H3 para los subtemas; sin H4.</li>
+<li>Párrafos cortos y listas numeradas sin emojis.</li>
+</ul>
+</li>
+<li><strong>Componentes del cuerpo:</strong>
+<ul>
+<li><strong>Dato:</strong> cifra grande, etiqueta y fuente, con el mismo formato que las cifras de los casos.</li>
+<li><strong>Tabla comparativa:</strong> como la de los servicios.</li>
+<li><strong>Lista de verificación.</strong></li>
+<li><strong>Así lo resolvimos:</strong> tarjeta con un caso de éxito y la liga «Ver el caso →».</li>
+<li><strong>Diagrama</strong> propio.</li>
+</ul>
+</li>
+<li><strong>Puente al servicio:</strong> título fijo «¿Esto aplica a tu empresa?», el texto de su categoría (tabla de abajo) y «Ver el servicio →».</li>
+<li><strong>Preguntas frecuentes:</strong> título fijo «Preguntas frecuentes». De 3 a 5 preguntas propias del tema, en texto abierto (sin acordeón) y con datos estructurados <code>FAQPage</code>.</li>
+<li><strong>Fuentes:</strong> título fijo «Fuentes» y una lista numerada.</li>
+<li><strong>Cierre:</strong> el mismo del índice del blog.</li>
+<li><strong>Sigue leyendo:</strong> título fijo «Sigue leyendo» y 3 tarjetas de la misma categoría, una sola vez.</li>
+</ol>
+<p><strong>Puente al servicio según la categoría:</strong></p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Categoría</th>
+<th>Texto del puente</th>
+<th>Enlace en bluepixel.mx</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agentes de IA y automatización</td>
+<td>Agentes &#x26; Automatización pone agentes de IA en producción sobre tus sistemas en 2 a 4 semanas.</td>
+<td><code>/es/agentes-ia-y-automatizacion</code></td>
+</tr>
+<tr>
+<td>Desarrollo de software</td>
+<td>Plataformas Digitales construye plataformas y MVPs desde cero con UX validado, en 2 a 4 meses.</td>
+<td><code>/es/desarrollo-de-software</code></td>
+</tr>
+<tr>
+<td>UX/UI y producto</td>
+<td>Plataformas Digitales diseña y valida la experiencia con usuarios reales antes de programar.</td>
+<td><code>/es/investigacion-ux-y-estrategia-de-producto</code></td>
+</tr>
+<tr>
+<td>Datos y analítica</td>
+<td>Evolución Digital mide y mejora tu plataforma mes a mes con un squad continuo.</td>
+<td><code>/es/datos-y-analitica</code></td>
+</tr>
+<tr>
+<td>Estrategia y ROI</td>
+<td>Consultoría Digital entrega diagnóstico, backlog y ROI en 2 a 4 semanas, antes de invertir.</td>
+<td><code>/es/consultoria-de-ia-empresarial</code></td>
+</tr>
+<tr>
+<td>Casos de éxito</td>
+<td>El servicio del caso.</td>
+<td><code>/es/casos-de-exito</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Cuando existan en bluepixel.mx las páginas de los 4 servicios (Parte A), el enlace pasa a la página del servicio.</p>
+<h3 id="articulos-que-se-pasan-a-la-plantilla">Artículos que se pasan a la plantilla</h3>
+<p>H1 con el que queda cada artículo y su categoría. Los cambios de título van marcados con ✏️.</p>
+<ol>
+<li><a href="https://www.bluepixel.mx/es/blog/automatizacion-integracion-agentes-ia" target="_blank" rel="noopener">Automatización e integración de agentes con IA: qué es y qué beneficios tiene para una empresa</a>: Agentes de IA y automatización (destacado)</li>
+<li><a href="https://www.bluepixel.mx/es/blog/ia-oportunidades-para-empresas" target="_blank" rel="noopener">¿Cómo convertir la IA en una oportunidad para tu empresa?</a> ✏️ sin «Guia completa»: Estrategia y ROI</li>
+<li><a href="https://www.bluepixel.mx/es/blog/beneficios-ia-empresa" target="_blank" rel="noopener">5 beneficios de implementar inteligencia artificial en tu empresa</a>: Estrategia y ROI</li>
+<li><a href="https://www.bluepixel.mx/es/blog/cuanto-cuesta-desarrollar-app-empresa" target="_blank" rel="noopener">¿Cuánto cuesta desarrollar una app para empresa en México?</a>: Desarrollo de software</li>
+<li><a href="https://www.bluepixel.mx/es/blog/futureproof-modernizacion-software" target="_blank" rel="noopener">Futureproof: el enfoque que te evitará reescribir tu software cada 3 años</a>: Desarrollo de software</li>
+<li><a href="https://www.bluepixel.mx/es/blog/arquitectura-headless-ventajas" target="_blank" rel="noopener">Arquitectura Headless: ¿Qué es y cuáles son sus ventajas?</a>: Desarrollo de software. Componente «Así lo resolvimos» con el caso de financiamiento inmobiliario (React + Strapi)</li>
+<li><a href="https://www.bluepixel.mx/es/blog/mejores-agencias-desarrollo-apps" target="_blank" rel="noopener">Mejores agencias de desarrollo de apps en México: cómo elegir la indicada para tu proyecto</a>: Desarrollo de software</li>
+<li><a href="https://www.bluepixel.mx/es/blog/sitio-web-optimizacion-guia" target="_blank" rel="noopener">¿Cómo saber si tu sitio web necesita optimización?</a> ✏️ sin «| Guía completa»: UX/UI y producto</li>
+<li><a href="https://www.bluepixel.mx/es/blog/como-medir-ux-guia-completa" target="_blank" rel="noopener">Cómo se mide el UX con datos: guía de métricas, métodos y toma de decisiones</a>: UX/UI y producto</li>
+<li><a href="https://www.bluepixel.mx/es/blog/diseno-ux-con-ia" target="_blank" rel="noopener">Diseño UX con IA: qué es y por qué importa en 2026</a>: UX/UI y producto</li>
+<li><a href="https://www.bluepixel.mx/es/blog/user-journeys-adaptativos-interfaces-de-voz" target="_blank" rel="noopener">Recorridos de usuario adaptativos (user journeys) e interfaces de voz: qué cambia en la experiencia</a> ✏️: UX/UI y producto
+<ul>
+<li><strong>Title:</strong> User journeys adaptativos e interfaces de voz | BluePixel</li>
+<li><strong>URL:</strong> sin cambio</li>
+<li><strong>Por qué:</strong> «La interfaz invisible» no es algo que la gente busque, y «en 2026» hace que el artículo envejezca al cambiar el año.</li>
+</ul>
+</li>
+<li><a href="https://www.bluepixel.mx/es/blog/pasos-auditoria-ux-experiencia-usuarios-optima" target="_blank" rel="noopener">5 pasos clave de una auditoría UX: identifica si la experiencia de tus usuarios es óptima</a> ✏️ (hoy no aparece en el índice): UX/UI y producto</li>
+<li><a href="https://www.bluepixel.mx/es/blog/data-pipelines-que-son-beneficios-empresas-crecimiento" target="_blank" rel="noopener">Pipelines de datos (data pipelines): qué son y cómo diseñarlos para escalar tu empresa</a> ✏️: Datos y analítica
+<ul>
+<li><strong>Title:</strong> Data pipelines: qué son y cómo diseñarlos | BluePixel</li>
+<li><strong>URL:</strong> sin cambio</li>
+<li><strong>Por qué:</strong>
+<ul>
+<li>Se corrige «mejorar tomar decisiones».</li>
+<li>Se dice «pipelines de datos» y no «flujos de datos», porque «flujo de datos» es otro concepto (<em>data flow</em>).</li>
+<li>El primer párrafo define el término: «un pipeline de datos (data pipeline) es…».</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.bluepixel.mx/es/blog/arquitectura-datos-escalable-que-es-cuando-crecer" target="_blank" rel="noopener">Arquitectura de datos escalable: ¿Qué es y cómo saber si una empresa está lista para crecer?</a>: Datos y analítica</li>
+<li><a href="https://www.bluepixel.mx/es/blog/caso-exito-hir-casa" target="_blank" rel="noopener">¿Cuándo necesita una empresa un rediseño web? El caso de HIR Casa</a> ✏️: Casos de éxito
+<ul>
+<li><strong>Title:</strong> ¿Cuándo hacer un rediseño web? 5 señales | BluePixel</li>
+<li><strong>URL:</strong> <code>/es/blog/cuando-hacer-un-rediseno-web</code>, con redirección 301 desde <code>/es/blog/caso-exito-hir-casa</code>.
+<ul>
+<li>La URL actual lleva la marca del cliente y «caso-exito», así que compite con la página del caso.</li>
+<li>Tiene dos semanas publicada: cambiarla ahora no cuesta posiciones.</li>
+</ul>
+</li>
+<li><strong>Si la autorización del cliente no llega,</strong> el H1 termina en «El caso de una financiera inmobiliaria».</li>
+<li><strong>En corto:</strong> Conviene rediseñar cuando el sitio genera fricción para el usuario o cuando la tecnología frena la operación; no solo cuando se ve viejo. HIR Casa dependía de un tercero para cada cambio de contenido, que tardaba de una a dos semanas; con el rediseño, Marketing publica en minutos.</li>
+<li><strong>H2 en orden:</strong>
+<ul>
+<li>¿Qué señales indican que un sitio necesita un rediseño? Las 5 señales del artículo actual, que hoy están al final, pasan al principio.</li>
+<li>¿Qué tenía que resolver HIR Casa?</li>
+<li>¿Cómo se hizo el rediseño? Descubrimiento UX, pruebas de usabilidad, React y Strapi.</li>
+<li>¿Qué resultados dio? Las 6 cifras con su fuente y la nota de atribución.</li>
+<li>¿Qué cambió para el equipo de Marketing?</li>
+</ul>
+</li>
+<li><strong>Así lo resolvimos:</strong> tarjeta con la liga a la página del caso, cuando exista en .mx.</li>
+<li><strong>Preguntas frecuentes:</strong>
+<ul>
+<li><strong>¿Cuánto tarda un rediseño web?</strong> Con Plataformas Digitales, un rediseño con desarrollo llega a producción en 2 a 4 meses, y el prototipo se valida con usuarios antes de programar. Si solo hace falta mejorar lo que ya existe, Evolución Digital lo hace por etapas, sin detener la operación.</li>
+<li><strong>¿Un rediseño obliga a cambiar de tecnología?</strong> No siempre: primero se revisa si la tecnología actual frena la operación. En HIR Casa sí convenía, porque WordPress obligaba a depender de un tercero para cada cambio; con React y Strapi, Marketing publica por su cuenta.</li>
+<li><strong>¿Se pierde el posicionamiento al rediseñar?</strong> No tiene por qué. Se conservan las URL o se redirige cada una a su equivalente (301), se mantienen los títulos y el contenido que ya posiciona, y se mide el tráfico antes y después del lanzamiento.</li>
+</ul>
+</li>
+<li><strong>Puente al servicio:</strong> Plataformas Digitales (<code>/es/desarrollo-de-software</code> mientras no exista la página del servicio).</li>
+<li><strong>Enlaces internos que hay que cambiar:</strong>
+<ul>
+<li><code>/es/diseno-ux-ui</code> por <code>/es/investigacion-ux-y-estrategia-de-producto</code></li>
+<li><code>/es/desarrollo-web</code> y <code>/es/desarrollo-headless</code> por <code>/es/desarrollo-de-software</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://www.bluepixel.mx/es/blog/desarrollador-full-stack-responsabilidades" target="_blank" rel="noopener">Desarrolladores Full Stack: perfil más buscado en empresas de desarrollo web ¿Cuáles son sus responsabilidades?</a>: Talento. Su cierre lleva a las vacantes, no a «Agenda una cita».</li>
+</ol>
+<hr>
+<h2 id="parte-d-casos-de-exito">🏆 PARTE D: CASOS DE ÉXITO</h2>
+<h3 id="indice-de-casos">Índice de casos</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/casos-de-estudio" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>URL en bluepixel.mx:</strong> <code>/es/casos-de-exito</code></li>
+<li><strong>Title:</strong> Casos de Estudio: Compara el Antes y el Después | BluePixel</li>
+<li><strong>Meta descripción:</strong> Casos de estudio de BluePixel con el antes y el después de cada proyecto. Las cifras de resultado se publican solo con su fuente y su fecha.</li>
+<li><strong>Etiqueta:</strong> Casos de estudio</li>
+<li><strong>H1:</strong> Antes y después, caso por caso</li>
+<li><strong>Lead / Subtítulo:</strong> Qué había que resolver y qué cambió. Cada cifra lleva su fuente y su fecha.</li>
+<li><strong>Párrafo:</strong> Trabajamos con empresas que ya tienen una operación en marcha y necesitan que su plataforma rinda más: un comercio electrónico que debía vender mejor en móvil, un marketplace que sirve a dos audiencias, un programa de lealtad con fricción en sus recorridos clave, tableros que la dirección no alcanzaba a leer y un sitio que su equipo de Marketing no podía actualizar sin un tercero. En cada caso verás qué había que resolver, cómo lo hicimos y qué cambió.</li>
+</ul>
+<p><strong>Cómo se diseña:</strong></p>
+<ul>
+<li>5 tarjetas: 2 arriba y 3 abajo en escritorio, 1 columna en móvil.</li>
+<li>Tarjetas en azul profundo con letras blancas; al pasar el cursor suben y oscurecen el azul.</li>
+<li>Debajo, la barra de logos y «Ver todos los casos →».</li>
+<li>El caso de IQOS ya no se incluye.</li>
+</ul>
+<p><strong>Tarjeta de caso:</strong></p>
+<ul>
+<li>Caso 0{N} · {Industria}</li>
+<li>{Sector}</li>
+<li><strong>Antes:</strong> {primer paso del antes}, tachado en rojo</li>
+<li><strong>Después:</strong> {primer paso del después}</li>
+<li>{Especialidades} →</li>
+</ul>
+<p><strong>Cómo se diseña cada caso (bloques en orden):</strong></p>
+<ol>
+<li><strong>Inicio:</strong> etiqueta, H1 con el resultado y lead. Al lado, el <strong>dato principal</strong> grande y su etiqueta.</li>
+<li><strong>Captura de portada</strong> a todo lo ancho (16:9).</li>
+<li><strong>Ficha de 4 datos:</strong> Industria · Servicio · Especialidades · Tecnología.</li>
+<li><strong>Reto y solución:</strong> una banda de 3 columnas: Contexto · El reto (resaltado) · Qué hicimos (etapas numeradas).</li>
+<li><strong>Resultados:</strong>
+<ul>
+<li>Las cifras grandes, en 3 columnas, o al lado de la lista si son 1 o 2.</li>
+<li>La fuente va una sola vez debajo.</li>
+<li>La lista de cambios con ✓.</li>
+</ul>
+</li>
+<li><strong>Antes y después:</strong> «antes» a la izquierda y «después» a la derecha, con la línea roja al centro, fija. En móvil se apilan.</li>
+<li><strong>Galería</strong> (Así quedó).</li>
+<li><strong>Impacto en el negocio,</strong> solo si el caso lo tiene: cifras comerciales más chicas que las de experiencia, la nota de atribución y dos tarjetas.</li>
+<li><strong>Otros casos</strong> y el cierre.</li>
+</ol>
+<p><strong>Textos fijos de la página de caso:</strong></p>
+<ul>
+<li><strong>Ficha:</strong> Industria · Servicio · Especialidades · Tecnología</li>
+<li><strong>Reto y solución:</strong> etiqueta «Reto y solución», H2 «De dónde partíamos y qué hicimos», columnas «Contexto», «El reto» y «Qué hicimos»</li>
+<li><strong>Resultados:</strong> etiqueta «Resultados», H2 «Lo que cambió»</li>
+<li><strong>Antes y después:</strong> etiqueta «Antes y después», H2 «Compara el flujo». Nota al pie: «Reconstrucción esquemática del flujo descrito en el caso. No es una captura del sistema del cliente.»</li>
+<li><strong>Galería:</strong> etiqueta «Galería», H2 «Así quedó»</li>
+<li><strong>Impacto en el negocio:</strong> etiqueta «Impacto en el negocio», H2 «El impacto va más allá del sitio», recuadro «Nota de atribución»</li>
+<li><strong>Cierre:</strong> H2 «Otros casos», liga «Ver el Servicio 03 →», título «¿Tu caso se parece a este?», botones «Agenda una cita» y «Escríbenos por WhatsApp», y la nota «Te responde una persona del equipo.»</li>
+</ul>
+<h3 id="caso-1-retail-de-electronica">Caso 1 · Retail de electrónica</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/casos-de-estudio/ecommerce-movil-retail" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>URL en bluepixel.mx:</strong> <code>/es/casos-de-exito/app-de-venta-de-productos-tecnologicos</code></li>
+<li><strong>Title:</strong> Caso: Rediseño de E-commerce Móvil para Retail | BluePixel</li>
+<li><strong>Meta descripción:</strong> Rediseño de la compra móvil de un retail de electrónica: descubrimiento de productos, fichas claras y checkout a pantalla completa. Compara el flujo.</li>
+<li><strong>Etiqueta:</strong> Caso de estudio · Retail de electrónica</li>
+<li><strong>H1:</strong> Checkout a pantalla completa, fichas con datos clave y categorías ordenadas.</li>
+<li><strong>Lead / Subtítulo:</strong> La compra móvil, rediseñada de punta a punta: análisis de requerimientos, arquitectura y flujos, diseño de UI, desarrollo y QA.</li>
+<li><strong>Dato principal:</strong> Compra en 1 pantalla (checkout a pantalla completa, con financiamiento y varios envíos)</li>
+</ul>
+<p><strong>Ficha:</strong></p>
+<ul>
+<li><strong>Industria:</strong> Retail y e-commerce</li>
+<li><strong>Servicio:</strong> 03 · Plataformas Digitales</li>
+<li><strong>Especialidades:</strong> UX · UI · Desarrollo web</li>
+</ul>
+<p><strong>Reto y solución:</strong></p>
+<ul>
+<li><strong>Contexto:</strong> Diseñar y desarrollar una app móvil intuitiva y bien estructurada para vender productos tecnológicos, que mejorara la usabilidad y la navegación, apoyara las campañas de temporada y aumentara las conversiones.</li>
+<li><strong>El reto:</strong> Un catálogo grande que en móvil debía ganar claridad, velocidad y desempeño comercial.</li>
+<li><strong>Qué hicimos:</strong> 01 Análisis de requerimientos · 02 Arquitectura, sitemap y flujos de tareas · 03 Descubrimiento de UI y diseño visual · 04 Desarrollo y control de calidad (QA)</li>
+</ul>
+<p><strong>Resultados (Lo que cambió):</strong></p>
+<ul>
+<li><strong>+32%:</strong> Aumento en la tasa de conversión de compras móviles</li>
+<li><strong>Fuente:</strong> Ficha pública del caso en bluepixel.mx · consultada el 30 de septiembre de 2026.</li>
+<li>✓ Mejor descubrimiento de productos</li>
+<li>✓ Menos fricción en el checkout</li>
+<li>✓ Más visibilidad de las campañas promocionales</li>
+</ul>
+<p><strong>Antes y después:</strong></p>
+<ul>
+<li><strong>Antes:</strong> Catálogo grande con un descubrimiento de productos poco claro · Categorías con poca organización · Información del producto difícil de alcanzar · Checkout por simplificar · Promociones con poca visibilidad</li>
+<li><strong>Después:</strong> Navegación con arquitectura organizada y menús estratégicos · Fichas con los datos clave y acceso rápido a especificaciones · Checkout en modal de pantalla completa, con financiamiento y varios envíos · Sección de descuentos y ofertas de temporada · Garantías a la vista al elegir el producto</li>
+</ul>
+<p><strong>Capturas (portada y galería):</strong></p>
+<ul>
+<li>Portada: Catálogo de relojes inteligentes de la app en un teléfono</li>
+<li>Ficha de producto con plan de garantía y formas de entrega</li>
+<li>Pantallas de producto, carrito y pago de la app</li>
+<li>Ficha de producto y carrito en dos teléfonos</li>
+</ul>
+<h3 id="caso-2-marketplace-de-palcos-y-boletos">Caso 2 · Marketplace de palcos y boletos</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/casos-de-estudio/marketplace-palcos-boletos" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>URL en bluepixel.mx:</strong> <code>/es/casos-de-exito/plataforma-premium-de-reserva-de-eventos</code></li>
+<li><strong>Title:</strong> Caso: Plataforma de Reserva de Palcos y Boletos | BluePixel</li>
+<li><strong>Meta descripción:</strong> Rediseño de punta a punta de un marketplace de palcos y boletos: búsqueda, selección en el recinto y compra con garantía visible. Compara el flujo.</li>
+<li><strong>Etiqueta:</strong> Caso de estudio · Marketplace de palcos y boletos</li>
+<li><strong>H1:</strong> Elegir palco sobre el mapa del recinto, con el evento siempre a la vista.</li>
+<li><strong>Lead / Subtítulo:</strong> Un rediseño web en cuatro partes: búsqueda de eventos, selección en el recinto, compra y la experiencia del dueño que renta.</li>
+<li><strong>Dato principal:</strong> 2 audiencias, 1 plataforma (quien compra boletos y quien renta su palco, en el mismo producto)</li>
+</ul>
+<p><strong>Ficha:</strong></p>
+<ul>
+<li><strong>Industria:</strong> Entretenimiento y eventos · marketplace</li>
+<li><strong>Servicio:</strong> 03 · Plataformas Digitales</li>
+<li><strong>Especialidades:</strong> UX · UI · Desarrollo web · Producto responsive · Plataforma de eventos</li>
+</ul>
+<p><strong>Reto y solución:</strong></p>
+<ul>
+<li><strong>Contexto:</strong> Diseñar una plataforma intuitiva y confiable para rentar palcos y lugares premium y comprar boletos de forma segura, con una reserva que equilibre confianza, rapidez y claridad para compradores y dueños.</li>
+<li><strong>El reto:</strong> Un mismo producto para dos audiencias: quien busca boletos y palcos premium, y el dueño que quiere rentar el suyo de forma segura.</li>
+<li><strong>Qué hicimos:</strong> 01 Análisis de requerimientos · 02 Investigación y extracción de insights · 03 Exploración y diseño de interfaz (UI) · 04 Desarrollo y control de calidad (QA)</li>
+</ul>
+<p><strong>Resultados (Lo que cambió):</strong> sin cifras publicadas.</p>
+<ul>
+<li>✓ Descubrimiento de eventos más rápido, con búsqueda integrada y filtros</li>
+<li>✓ Más confianza, con resúmenes de compra transparentes y la garantía a la vista</li>
+</ul>
+<p><strong>Antes y después:</strong></p>
+<ul>
+<li><strong>Antes:</strong> Búsqueda de eventos lenta · Selección de asientos y palcos poco clara · Poca confianza durante la compra · Detalles del evento que se pierden durante la reserva</li>
+<li><strong>Después:</strong> Búsqueda integrada con filtros · Selección sobre el mapa gráfico del recinto · Resumen persistente del evento durante toda la compra · Pago con sección de garantía visible · Experiencia dedicada para los dueños que rentan</li>
+</ul>
+<p><strong>Capturas (portada y galería):</strong></p>
+<ul>
+<li>Portada: Página de inicio del marketplace en laptop y teléfono</li>
+<li>Inicio con buscador de eventos y categorías</li>
+<li>Selección de lugares sobre el mapa del estadio</li>
+<li>Búsqueda de palcos y mapa del recinto en escritorio</li>
+</ul>
+<h3 id="caso-3-aerolinea-latinoamericana">Caso 3 · Aerolínea latinoamericana</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/casos-de-estudio/plataforma-lealtad-viajes" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>URL en bluepixel.mx:</strong> <code>/es/casos-de-exito/rediseno-de-la-seccion-del-programa-de-lealtad-de-viajes</code></li>
+<li><strong>Title:</strong> Caso: Rediseño de una Plataforma de Lealtad de Viajes | BluePixel</li>
+<li><strong>Meta descripción:</strong> Rediseño del programa de lealtad de una aerolínea latinoamericana: inicio de sesión unificado, millas destacadas y beneficios visuales. Compara el flujo.</li>
+<li><strong>Etiqueta:</strong> Caso de estudio · Aerolínea latinoamericana</li>
+<li><strong>H1:</strong> Un solo inicio de sesión, millas a la vista y beneficios en tarjetas.</li>
+<li><strong>Lead / Subtítulo:</strong> Acceso en una sola pantalla, con la información a un lado e imágenes de contexto al otro; una cuenta centrada en las millas; beneficios en tarjetas visuales.</li>
+<li><strong>Dato principal:</strong> 1 sola pantalla (para iniciar sesión o registrarse, que antes eran recorridos separados)</li>
+</ul>
+<p><strong>Ficha:</strong></p>
+<ul>
+<li><strong>Industria:</strong> Viajes y lealtad</li>
+<li><strong>Servicio:</strong> 03 · Plataformas Digitales</li>
+<li><strong>Especialidades:</strong> UX · UI · Desarrollo web · Producto responsive · Plataformas de lealtad</li>
+</ul>
+<p><strong>Reto y solución:</strong></p>
+<ul>
+<li><strong>Contexto:</strong> Rediseñar la sección del programa de lealtad para mejorar la usabilidad, modernizar la interfaz y optimizar el inicio de sesión y el registro, de modo que gestionar millas, beneficios y cuenta fuera más claro.</li>
+<li><strong>El reto:</strong> Fricción en los recorridos clave de la plataforma de lealtad, del inicio de sesión a la consulta de beneficios.</li>
+<li><strong>Qué hicimos:</strong> 01 Análisis de requerimientos · 02 Investigación y extracción de insights · 03 Reestructuración de la arquitectura de información · 04 Wireframing · 05 Descubrimiento de UI y diseño visual</li>
+</ul>
+<p><strong>Resultados (Lo que cambió):</strong></p>
+<ul>
+<li><strong>+22%:</strong> Aumento en el tiempo de sesión móvil</li>
+<li><strong>Fuente:</strong> Ficha pública del caso en bluepixel.mx · consultada el 30 de septiembre de 2026.</li>
+<li>✓ Una plataforma de lealtad más intuitiva y accesible</li>
+<li>✓ Navegación y jerarquía de contenido más claras</li>
+<li>✓ Inicio de sesión y gestión de cuenta más rápidos</li>
+</ul>
+<p><strong>Antes y después:</strong></p>
+<ul>
+<li><strong>Antes:</strong> Inicio de sesión y registro fragmentados · Arquitectura de información poco clara · Datos de cuenta y beneficios difíciles de escanear · Una experiencia que no reflejaba una marca de viajes moderna</li>
+<li><strong>Después:</strong> Inicio de sesión y registro unificados en una sola pantalla · Cuenta con las millas acumuladas destacadas y copia instantánea · Beneficios en tarjetas visuales más grandes, con mejores imágenes</li>
+</ul>
+<p><strong>Capturas (portada y galería):</strong></p>
+<ul>
+<li>Portada: Pantalla única de inicio de sesión del programa de lealtad, en escritorio. Se recorta desde arriba.</li>
+<li>Faltan capturas para la galería, sin datos personales de socios.</li>
+</ul>
+<h3 id="caso-4-multinacional-de-alimentos">Caso 4 · Multinacional de alimentos</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/casos-de-estudio/analitica-multinacional" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>URL en bluepixel.mx:</strong> <code>/es/casos-de-exito/estandarizando-la-experiencia-de-datos-y-analitica-en-una-organizacion-multinacional</code></li>
+<li><strong>Title:</strong> Caso: Dashboards de Analítica en una Multinacional | BluePixel</li>
+<li><strong>Meta descripción:</strong> Cómo BluePixel estandarizó la experiencia de datos de los dashboards de Power BI de una multinacional de alimentos con jerarquía visual y un sistema de diseño.</li>
+<li><strong>Etiqueta:</strong> Caso de estudio · Multinacional de alimentos</li>
+<li><strong>H1:</strong> De dashboards de Power BI sin criterio común a un sistema de diseño para analítica.</li>
+<li><strong>Lead / Subtítulo:</strong> Un sistema de diseño para analítica, con jerarquía visual, componentes estandarizados y lineamientos que los equipos internos pueden replicar.</li>
+<li><strong>Dato principal:</strong> 1 sistema de diseño (para los dashboards de varios países y unidades de negocio)</li>
+</ul>
+<p><strong>Ficha:</strong></p>
+<ul>
+<li><strong>Industria:</strong> Alimentos y bebidas · analítica</li>
+<li><strong>Especialidades:</strong> UX · UI · Visualización de datos · Design Systems · Producto responsive · Product Strategy</li>
+<li><strong>Tecnología:</strong> Power BI</li>
+</ul>
+<p><strong>Reto y solución:</strong></p>
+<ul>
+<li><strong>Contexto:</strong> Una de las empresas de alimentos más grandes del mundo tenía múltiples dashboards de Power BI usados por distintos departamentos y regiones. Los datos estaban ahí; el reto era hacerlos claros, accionables y consistentes.</li>
+<li><strong>El reto:</strong> Dashboards correctos pero difíciles de leer, que había que escalar a varios países y unidades de negocio para facilitar las decisiones ejecutivas.</li>
+<li><strong>Qué hicimos:</strong> 01 Entrevistas con usuarios ejecutivos y operativos · 02 Identificación de las métricas verdaderamente estratégicas · 03 Diseño centrado en la claridad y la toma de decisiones · 04 Construcción de un sistema reutilizable · 05 Soporte continuo para nuevas iniciativas digitales</li>
+</ul>
+<p><strong>Resultados (Lo que cambió):</strong> sin cifras publicadas.</p>
+<ul>
+<li>✓ Dashboards más claros y accionables</li>
+<li>✓ Adopción global del sistema de diseño</li>
+<li>✓ Más coherencia entre regiones</li>
+<li>✓ Colaboración extendida a varios departamentos</li>
+</ul>
+<p><strong>Antes y después:</strong></p>
+<ul>
+<li><strong>Antes:</strong> Dashboards por departamento y región sin un criterio común · Técnicamente correctos, pero difíciles de interpretar · Inconsistencias visuales entre reportes · Jerarquía de información débil</li>
+<li><strong>Después:</strong> Jerarquía visual y métricas clave aclaradas · Sistema de diseño para analítica · Componentes y patrones estandarizados · Lineamientos replicables para los equipos internos</li>
+</ul>
+<p><strong>Capturas:</strong> faltan. Sin portada, la página empieza con el título y la ficha.</p>
+<h3 id="caso-5-financiamiento-inmobiliario">Caso 5 · Financiamiento inmobiliario</h3>
+<ul>
+<li><strong>🔗 Referencia visual:</strong> <a href="https://bluepixelpruebas.github.io/bluepixel-preview/casos-de-estudio/plataforma-financiamiento-inmobiliario" target="_blank" rel="noopener">Ver maqueta en vivo</a></li>
+<li><strong>URL en bluepixel.mx:</strong> por crear, dentro de <code>/es/casos-de-exito/</code></li>
+<li><strong>Title:</strong> Caso: Rediseño Web para una Financiera Inmobiliaria | BluePixel</li>
+<li><strong>Meta descripción:</strong> De WordPress a React y Strapi: la plataforma de una financiera inmobiliaria, rediseñada para que Marketing publique en minutos y no en semanas. Compara el flujo.</li>
+<li><strong>Etiqueta:</strong> Caso de estudio · Financiamiento inmobiliario</li>
+<li><strong>H1:</strong> Contenidos que Marketing publica en minutos, sin esperar una o dos semanas a un tercero.</li>
+<li><strong>Lead / Subtítulo:</strong> Descubrimiento UX y pruebas de usabilidad, rediseño de la experiencia y una plataforma nueva en React y Strapi que Marketing administra sin depender de nadie.</li>
+<li><strong>Dato principal:</strong> De semanas a minutos (para publicar un cambio de contenido, sin depender de un tercero)</li>
+</ul>
+<p><strong>Ficha:</strong></p>
+<ul>
+<li><strong>Industria:</strong> Servicios financieros · plataforma web</li>
+<li><strong>Servicio:</strong> 03 · Plataformas Digitales</li>
+<li><strong>Especialidades:</strong> UX · UI · Desarrollo web · Desarrollo headless</li>
+<li><strong>Tecnología:</strong> React · Strapi</li>
+</ul>
+<p><strong>Reto y solución:</strong></p>
+<ul>
+<li><strong>Contexto:</strong> Rediseñar la experiencia web de una empresa de financiamiento inmobiliario, alternativa al crédito hipotecario bancario, y construir una plataforma más rápida, flexible y fácil de operar para su equipo de Marketing.</li>
+<li><strong>El reto:</strong> Un sitio en WordPress con fricción al navegar y que dependía de un tercero hasta para actualizar contenidos.</li>
+<li><strong>Qué hicimos:</strong> 01 Descubrimiento UX (UX discovery) · 02 Pruebas de usabilidad (usability testing) · 03 Rediseño de la experiencia UX/UI · 04 Desarrollo headless con React y Strapi · 05 Control de calidad (QA)</li>
+</ul>
+<p><strong>Resultados (Lo que cambió):</strong></p>
+<ul>
+<li><strong>−24%:</strong> Menos tiempo de carga ¹</li>
+<li><strong>+14 pts:</strong> PageSpeed Mobile ²</li>
+<li><strong>−3.2 pp:</strong> Tasa de rebote ¹</li>
+<li><strong>+14%:</strong> Tiempo de interacción ¹</li>
+<li><strong>+7%:</strong> Páginas por sesión ¹</li>
+<li><strong>+12%:</strong> Finalización de la calculadora de financiamiento ¹</li>
+<li>¹ <strong>Fuente:</strong> Medición del equipo del proyecto frente al periodo anterior · reportado el 8 de octubre de 2026.</li>
+<li>² <strong>Fuente:</strong> PageSpeed Insights (móvil), frente al periodo anterior · reportado el 8 de octubre de 2026.</li>
+<li>✓ Marketing actualiza contenidos, formularios y el blog sin depender de terceros</li>
+<li>✓ Ajustes que tardaban de una a dos semanas, ahora en minutos</li>
+<li>✓ Una plataforma más rápida y con mejor rendimiento en móvil</li>
+</ul>
+<p><strong>Antes y después:</strong></p>
+<ul>
+<li><strong>Antes:</strong> Cambios de contenido que tardaban de una a dos semanas · Un tercero intervenía en cada actualización del sitio · Elementos de la experiencia que generaban fricción al navegar · Velocidad de carga y rendimiento móvil por mejorar</li>
+<li><strong>Después:</strong> Ajustes de contenido en minutos, desde la consola de Strapi · Contenidos, formularios y blog en manos de Marketing · Experiencia rediseñada a partir de pruebas con usuarios · Interfaz en React con componentes reutilizables · Simulador de financiamiento a la vista desde el inicio</li>
+</ul>
+<p><strong>Capturas (portada y galería):</strong></p>
+<ul>
+<li>Portada: Página de inicio de la plataforma de financiamiento, con el acceso a la calculadora. Se recorta desde arriba.</li>
+<li>Opciones de financiamiento y simulador en la página de inicio</li>
+<li>Primer paso de la calculadora de financiamiento: qué se desea financiar</li>
+</ul>
+<p><strong>Impacto en el negocio:</strong></p>
+<ul>
+<li><strong>+4 pp:</strong> Leads calificados</li>
+<li><strong>+9%:</strong> Conversión de lead a cita</li>
+<li><strong>Fuente:</strong> Medición del equipo del proyecto frente al periodo anterior · reportado el 8 de octubre de 2026.</li>
+<li><strong>Nota de atribución:</strong> En el mismo periodo, el cliente también reforzó su pauta digital, SEM, SEO, gestión de reputación en línea (ORM) y otras iniciativas comerciales. Estas cifras son resultado de ese esfuerzo integral, no solo del rediseño.</li>
+<li><strong>Operación · De ciclos de desarrollo a autonomía:</strong> Marketing actualiza contenidos, gestiona el blog y modifica formularios desde la plataforma, sin depender de terceros.</li>
+<li><strong>Agilidad comercial · Respuesta más rápida a campañas:</strong> El equipo responde antes a campañas, contenidos y necesidades comerciales, y aprovecha mejor sus iniciativas digitales.</li>
+</ul>
+</main>
+</div>
+</body>
+</html>
