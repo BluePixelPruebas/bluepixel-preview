@@ -240,10 +240,10 @@ Contenidos que Marketing publica en minutos, sin esperar una o dos semanas a un 
 
 Objetivo: Rediseñar la experiencia web de una empresa de financiamiento inmobiliario, alternativa al crédito hipotecario bancario, y construir una plataforma más rápida, flexible y fácil de operar para su equipo de Marketing.
 Desafío: Un sitio en WordPress con fricción al navegar y que dependía de un tercero hasta para actualizar contenidos.
-Enfoque: Descubrimiento UX (UX discovery); Pruebas de usabilidad (usability testing); Rediseño de la experiencia UX/UI; Desarrollo headless con React y Strapi.
+Enfoque: Descubrimiento UX (UX discovery); Pruebas de usabilidad (usability testing); Rediseño de la experiencia UX/UI; Desarrollo headless con React y Strapi; Control de calidad (QA).
 Solución: Descubrimiento UX y pruebas de usabilidad, rediseño de la experiencia y una plataforma nueva en React y Strapi que Marketing administra sin depender de nadie.
-Impacto: Marketing actualiza contenidos, formularios y el blog sin depender de terceros; Ajustes que tardaban de una a dos semanas, ahora en minutos; Una plataforma más rápida y con mejor rendimiento en móvil.
-Alcance (hechos del proyecto): 2 frentes atendidos: la navegación del usuario y la operación del sitio; 4 etapas, del descubrimiento UX al desarrollo; Headless contenidos administrados aparte de la interfaz.
+Impacto: Marketing actualiza contenidos, formularios y el blog sin depender de terceros; Ajustes que tardaban de una a dos semanas, ahora en minutos; Una plataforma más rápida y con mejor rendimiento en móvil; Respuesta más rápida a campañas y necesidades comerciales.
+Alcance (hechos del proyecto): 2 frentes atendidos: la navegación del usuario y la operación del sitio; 5 etapas, del descubrimiento UX al control de calidad; Headless contenidos administrados aparte de la interfaz.
 
 ## Preguntas frecuentes
 
@@ -576,10 +576,10 @@ Content that Marketing publishes in minutes, without waiting one or two weeks fo
 
 Goal: Redesign the web experience of a real estate financing company, an alternative to bank mortgages, and build a faster, more flexible platform that is easier for its Marketing team to run.
 Challenge: A WordPress site with friction in navigation that depended on a third party even to update content.
-Approach: UX discovery; Usability testing; UX/UI experience redesign; Headless development with React and Strapi.
+Approach: UX discovery; Usability testing; UX/UI experience redesign; Headless development with React and Strapi; Quality assurance (QA).
 Solution: UX discovery and usability testing, a redesigned experience and a new platform in React and Strapi that Marketing runs on its own.
-Impact: Marketing updates content, forms and the blog without depending on third parties; Changes that took one to two weeks now take minutes; A faster platform with better mobile performance.
-Scope (project facts): 2 areas addressed: user navigation and site operation; 4 stages, from UX discovery to development; Headless content managed separately from the interface.
+Impact: Marketing updates content, forms and the blog without depending on third parties; Changes that took one to two weeks now take minutes; A faster platform with better mobile performance; Faster response to campaigns and commercial needs.
+Scope (project facts): 2 areas addressed: user navigation and site operation; 5 stages, from UX discovery to quality assurance; Headless content managed separately from the interface.
 
 ## Frequently asked questions
 

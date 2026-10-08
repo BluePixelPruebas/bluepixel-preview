@@ -1,7 +1,7 @@
 {
   "motor": "autoevaluacion-local v1",
-  "generadoEn": "2026-10-08T17:00:19.451Z",
-  "buildId": "56a1ed5c",
+  "generadoEn": "2026-10-08T18:09:49.374Z",
+  "buildId": "69351a9e",
   "indexable": false,
   "puntaje": 979,
   "maximo": 1000,
@@ -540,7 +540,7 @@
       "titulo": "Caso: Rediseño Web para una Financiera Inmobiliaria | BluePixel",
       "jsKB": 33.3,
       "cssKB": 18.1,
-      "htmlKB": 7.9
+      "htmlKB": 8
     },
     {
       "ruta": "/casos-de-estudio/plataforma-lealtad-viajes",
@@ -659,7 +659,7 @@
       "titulo": "Case Study: Web Redesign for a Real Estate Lender | BluePixel",
       "jsKB": 33.3,
       "cssKB": 18.1,
-      "htmlKB": 7.7
+      "htmlKB": 7.8
     },
     {
       "ruta": "/en/case-studies/suite-ticket-marketplace",
