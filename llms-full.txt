@@ -147,7 +147,7 @@ Lo que resuelve:
 - El cuestionario de seguridad de un cliente frena la venta. → Controles técnicos documentados como base para responderlo.
 
 Qué recibes:
-- Controles técnicos documentados: Cifrado, aislamiento en VPC y trazabilidad de accesos, por escrito.
+- Controles técnicos documentados: Cifrado, aislamiento en VPC y trazabilidad de accesos, por escrito, incluidos los que pide la LFPDPPP.
 - Pipeline con análisis de código y escaneo de dependencias: El despliegue se detiene si aparece una vulnerabilidad conocida.
 - Plan de remediación de hallazgos de terceros: Corregimos en código y arquitectura lo que encuentre una firma externa.
 - Matriz de accesos: Quién puede hacer qué en cada sistema, con el mínimo privilegio necesario.
@@ -164,7 +164,7 @@ Preguntas:
 ### Estrategia y Consultoría
 https://bluepixel.ai/capacidades/digital-consulting
 
-Antes de comprometer capital en desarrollo, cuantificamos el costo de no actuar, priorizamos el backlog por impacto financiero y entregamos un business case con ROI proyectado.
+Antes de invertir en IA, evaluamos qué casos de uso son viables, cuánto cuesta no actuar y en qué orden conviene hacerlo, con un roadmap ejecutivo trimestral alineado a tus objetivos financieros.
 
 **¿Qué es el costo de inacción?** El costo de inacción es lo que una empresa pierde cada mes por no resolver un problema: horas en tareas manuales, errores y oportunidades que no se cierran. Calcularlo antes de invertir permite comparar el costo de actuar contra el de esperar.
 
@@ -180,6 +180,7 @@ Qué recibes:
 - Business case con ROI proyectado y costo de inacción: El retorno proyectado y lo que cuesta esperar.
 
 Preguntas:
+- **¿En qué se diferencia de la Consultoría Digital (Servicio 01)?** La Consultoría Digital es la forma de contratarla: un proyecto de 2 a 4 semanas con entregables cerrados, como el business case y el backlog priorizado. Esta capacidad es el criterio que se aplica ahí y en los otros servicios: evaluar qué casos de IA son viables, calcular el costo de inacción y mantener el roadmap trimestral de Evolución Digital.
 - **¿Recomiendan software de terceros o solo desarrollo a la medida?** Recomendamos lo que más convenga al negocio, aunque no sea desarrollo. Si una licencia que ya existe resuelve el problema mejor y más barato que construir, eso va en la recomendación. La decisión sale del business case: se compara el costo de construir, el de licenciar y el costo de inacción, y se deja por escrito en el roadmap.
 - **¿Es obligatorio empezar por la consultoría?** No. Los cuatro servicios de BluePixel son formas independientes de trabajar: puedes entrar directo a Agentes & Automatización, a Plataformas Digitales o a Evolución Digital. La consultoría conviene cuando todavía no está claro qué construir, en qué orden o con qué retorno; en 2 a 4 semanas entrega el backlog priorizado y el business case.
 
@@ -483,7 +484,7 @@ What it solves:
 - A client’s security questionnaire stalls the deal. → Documented technical controls as the basis for answering it.
 
 What you receive:
-- Documented technical controls: Encryption, VPC isolation and access traceability, in writing.
+- Documented technical controls: Encryption, VPC isolation and access traceability, in writing, including those the LFPDPPP requires.
 - Pipeline with code analysis and dependency scanning: Deployment stops if a known vulnerability shows up.
 - Remediation plan for third-party findings: We fix in code and architecture what an external firm finds.
 - Access matrix: Who can do what in each system, with the least privilege needed.
@@ -500,7 +501,7 @@ Questions:
 ### Digital Consulting
 https://bluepixel.ai/en/capabilities/digital-consulting
 
-Before committing capital to development, we quantify the cost of not acting, prioritize the backlog by financial impact and deliver a business case with projected ROI.
+Before investing in AI, we assess which use cases are viable, what not acting costs you and in what order to move, with a quarterly executive roadmap aligned with your financial goals.
 
 **What is the cost of inaction?** The cost of inaction is what a company loses every month by not solving a problem: hours on manual tasks, errors and opportunities that never close. Calculating it before investing lets you compare the cost of acting with the cost of waiting.
 
@@ -516,6 +517,7 @@ What you receive:
 - Business case with projected ROI and cost of inaction: The projected return and what waiting costs.
 
 Questions:
+- **How is this different from Digital Consulting (Service 01)?** Digital Consulting is how you hire it: a 2 to 4 week project with closed deliverables, such as the business case and the prioritized backlog. This capability is the judgment applied there and in the other services: assessing which AI use cases are viable, calculating the cost of inaction and keeping the quarterly roadmap of Digital Evolution.
 - **Do you recommend third-party software or only custom development?** Whatever suits the business best. If an existing license solves the problem better and cheaper than building, that is what we recommend.
 - **Is it mandatory to start with consulting?** No. The four services are independent ways of working: you can enter directly through the one that fits where your company is today.
 

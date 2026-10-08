@@ -18,7 +18,7 @@ Idioma: español (México), con versión completa en inglés en https://bluepixe
 - [Agentes de IA y Automatización](https://bluepixel.ai/capacidades/agentic-ai-automation): Agentes de IA para empresas en México: RAG privado sobre tus datos, conectores MCP con tu ERP o CRM y despliegue en tu nube privada. Pruébalo aquí.
 - [Datos y Analítica](https://bluepixel.ai/capacidades/data-analytics): Telemetría de producto con Mixpanel, pipelines de datos y dashboards ejecutivos en tiempo real para decidir con evidencia de comportamiento.
 - [Seguridad y Confiabilidad](https://bluepixel.ai/capacidades/security-reliability): Seguridad como propiedad del software: arquitectura Zero-Trust, hardening OWASP Top 10, SAST, cifrado y aislamiento en tu VPC. Certificación CyberVadis vigente.
-- [Estrategia y Consultoría](https://bluepixel.ai/capacidades/digital-consulting): Costo de inacción, backlog priorizado por ROI y business case antes de invertir. Consultoría digital con roadmap ejecutivo y FutureProof™ Framework.
+- [Estrategia y Consultoría](https://bluepixel.ai/capacidades/digital-consulting): Consultoría de IA para empresas: qué casos de uso son viables, cuánto cuesta no actuar y un roadmap trimestral alineado a tus objetivos financieros.
 
 ## Páginas de profundidad
 
@@ -77,7 +77,7 @@ Language: English. Home: https://bluepixel.ai/en. The Spanish site (https://blue
 - [Agentic AI & Automation](https://bluepixel.ai/en/capabilities/agentic-ai-automation): AI agents for companies in Mexico: private RAG over your data, MCP connectors to your ERP or CRM and deployment in your private cloud. Try it here.
 - [Data & Analytics](https://bluepixel.ai/en/capabilities/data-analytics): Product telemetry with Mixpanel, data pipelines and real-time executive dashboards to decide with evidence of behavior.
 - [Security & Reliability](https://bluepixel.ai/en/capabilities/security-reliability): Security as a property of the software: Zero-Trust architecture, OWASP Top 10 hardening, SAST, encryption and VPC isolation. Current CyberVadis certification.
-- [Digital Consulting](https://bluepixel.ai/en/capabilities/digital-consulting): Cost of inaction, ROI-prioritized backlog and business case before you invest. Digital consulting with an executive roadmap and the FutureProof™ Framework.
+- [Digital Consulting](https://bluepixel.ai/en/capabilities/digital-consulting): AI consulting for businesses: which use cases are viable, what not acting costs you and a quarterly roadmap aligned with your financial goals.
 
 ## Deep-dive pages
 
