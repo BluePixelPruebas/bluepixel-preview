@@ -195,7 +195,7 @@ Desafío: Un catálogo grande que en móvil debía ganar claridad, velocidad y d
 Enfoque: Análisis de requerimientos; Arquitectura, sitemap y flujos de tareas; Descubrimiento de UI y diseño visual; Desarrollo y control de calidad (QA).
 Solución: La compra móvil, rediseñada de punta a punta: análisis de requerimientos, arquitectura y flujos, diseño de UI, desarrollo y QA.
 Impacto: Mejor descubrimiento de productos; Menos fricción en el checkout; Más visibilidad de las campañas promocionales.
-Alcance (hechos del proyecto): 5 necesidades del reto atendidas; 4 frentes rediseñados: descubrimiento, producto, compra y promociones; 4 etapas, del análisis de requerimientos al QA.
+Dato principal: Compra en 1 pantalla (checkout a pantalla completa, con financiamiento y varios envíos).
 
 ### Marketplace de palcos y boletos (Entretenimiento y eventos · marketplace)
 https://bluepixel.ai/casos-de-estudio/marketplace-palcos-boletos
@@ -207,7 +207,7 @@ Desafío: Un mismo producto para dos audiencias: quien busca boletos y palcos pr
 Enfoque: Análisis de requerimientos; Investigación y extracción de insights; Exploración y diseño de interfaz (UI); Desarrollo y control de calidad (QA).
 Solución: Un rediseño web en cuatro partes: búsqueda de eventos, selección en el recinto, compra y la experiencia del dueño que renta.
 Impacto: Descubrimiento de eventos más rápido, con búsqueda integrada y filtros; Más confianza, con resúmenes de compra transparentes y la garantía a la vista.
-Alcance (hechos del proyecto): 2 audiencias atendidas: quien compra y quien renta su palco; 3 flujos principales rediseñados; 4 fases del proceso completadas.
+Dato principal: 2 audiencias, 1 plataforma (quien compra boletos y quien renta su palco, en el mismo producto).
 
 ### Aerolínea latinoamericana (Viajes y lealtad)
 https://bluepixel.ai/casos-de-estudio/plataforma-lealtad-viajes
@@ -219,7 +219,7 @@ Desafío: Fricción en los recorridos clave de la plataforma de lealtad, del ini
 Enfoque: Análisis de requerimientos; Investigación y extracción de insights; Reestructuración de la arquitectura de información; Wireframing; Descubrimiento de UI y diseño visual.
 Solución: Acceso en una sola pantalla, con la información a un lado e imágenes de contexto al otro; una cuenta centrada en las millas; beneficios en tarjetas visuales.
 Impacto: Una plataforma de lealtad más intuitiva y accesible; Navegación y jerarquía de contenido más claras; Inicio de sesión y gestión de cuenta más rápidos.
-Alcance (hechos del proyecto): 1 pantalla para iniciar sesión y registrarse; 3 frentes rediseñados: acceso, cuenta y beneficios; 4 fricciones del recorrido resueltas.
+Dato principal: 1 sola pantalla (para iniciar sesión o registrarse, que antes eran recorridos separados).
 
 ### Multinacional de alimentos (Alimentos y bebidas · analítica)
 https://bluepixel.ai/casos-de-estudio/analitica-multinacional
@@ -231,7 +231,7 @@ Desafío: Dashboards correctos pero difíciles de leer, que había que escalar a
 Enfoque: Entrevistas con usuarios ejecutivos y operativos; Identificación de las métricas verdaderamente estratégicas; Diseño centrado en la claridad y la toma de decisiones; Construcción de un sistema reutilizable; Soporte continuo para nuevas iniciativas digitales.
 Solución: Un sistema de diseño para analítica, con jerarquía visual, componentes estandarizados y lineamientos que los equipos internos pueden replicar.
 Impacto: Dashboards más claros y accionables; Adopción global del sistema de diseño; Más coherencia entre regiones; Colaboración extendida a varios departamentos.
-Alcance (hechos del proyecto): 1 sistema de diseño para analítica, replicable por los equipos internos; 5 frentes de la solución, del rediseño de dashboards a las guías; Power BI plataforma de los dashboards.
+Dato principal: 1 sistema de diseño (para los dashboards de varios países y unidades de negocio).
 
 ### Financiamiento inmobiliario (Servicios financieros · plataforma web)
 https://bluepixel.ai/casos-de-estudio/plataforma-financiamiento-inmobiliario
@@ -242,8 +242,8 @@ Objetivo: Rediseñar la experiencia web de una empresa de financiamiento inmobil
 Desafío: Un sitio en WordPress con fricción al navegar y que dependía de un tercero hasta para actualizar contenidos.
 Enfoque: Descubrimiento UX (UX discovery); Pruebas de usabilidad (usability testing); Rediseño de la experiencia UX/UI; Desarrollo headless con React y Strapi; Control de calidad (QA).
 Solución: Descubrimiento UX y pruebas de usabilidad, rediseño de la experiencia y una plataforma nueva en React y Strapi que Marketing administra sin depender de nadie.
-Impacto: Marketing actualiza contenidos, formularios y el blog sin depender de terceros; Ajustes que tardaban de una a dos semanas, ahora en minutos; Una plataforma más rápida y con mejor rendimiento en móvil; Respuesta más rápida a campañas y necesidades comerciales.
-Alcance (hechos del proyecto): 2 frentes atendidos: la navegación del usuario y la operación del sitio; 5 etapas, del descubrimiento UX al control de calidad; Headless contenidos administrados aparte de la interfaz.
+Impacto: Marketing actualiza contenidos, formularios y el blog sin depender de terceros; Ajustes que tardaban de una a dos semanas, ahora en minutos; Una plataforma más rápida y con mejor rendimiento en móvil.
+Dato principal: De semanas a minutos (para publicar un cambio de contenido, sin depender de un tercero).
 
 ## Preguntas frecuentes
 
@@ -531,7 +531,7 @@ Challenge: A large catalog that, on mobile, had to gain clarity, speed and comme
 Approach: Requirements analysis; Architecture, sitemap and task flows; UI discovery and visual design; Development and quality assurance (QA).
 Solution: Mobile shopping redesigned end to end: requirements analysis, architecture and flows, UI design, development and QA.
 Impact: Better product discovery; Less friction at checkout; More visibility for promotional campaigns.
-Scope (project facts): 5 needs from the brief addressed; 4 areas redesigned: discovery, product, purchase and promotions; 4 stages, from requirements analysis to QA.
+Key fact: Checkout on 1 screen (full-screen checkout, with financing and several shipping options).
 
 ### Suite and ticket marketplace (Entertainment and events · marketplace)
 https://bluepixel.ai/en/case-studies/suite-ticket-marketplace
@@ -543,7 +543,7 @@ Challenge: One product for two audiences: people looking for tickets and premium
 Approach: Requirements analysis; Research and insight extraction; Interface (UI) exploration and design; Development and quality assurance (QA).
 Solution: A web redesign in four parts: event search, seat selection on the venue map, checkout and the experience for owners who rent.
 Impact: Faster event discovery, with integrated search and filters; More trust, with transparent purchase summaries and the guarantee in view.
-Scope (project facts): 2 audiences served: buyers and suite owners who rent; 3 main flows redesigned; 4 process phases completed.
+Key fact: 2 audiences, 1 platform (ticket buyers and suite owners who rent theirs, in the same product).
 
 ### Latin American airline (Travel and loyalty)
 https://bluepixel.ai/en/case-studies/travel-loyalty-platform
@@ -555,7 +555,7 @@ Challenge: Friction across the key journeys of the loyalty platform, from sign-i
 Approach: Requirements analysis; Research and insight extraction; Information architecture restructuring; Wireframing; UI discovery and visual design.
 Solution: Access on a single screen, with information on one side and context imagery on the other; an account built around miles; benefits on visual cards.
 Impact: A more intuitive and accessible loyalty platform; Clearer navigation and content hierarchy; Faster sign-in and account management.
-Scope (project facts): 1 screen to sign in and register; 3 areas redesigned: access, account and benefits; 4 journey friction points resolved.
+Key fact: 1 single screen (to sign in or sign up, which used to be separate journeys).
 
 ### Multinational food company (Food and beverage · analytics)
 https://bluepixel.ai/en/case-studies/multinational-analytics
@@ -567,7 +567,7 @@ Challenge: Dashboards that were correct but hard to read, and had to scale to se
 Approach: Interviews with executive and operational users; Identifying the truly strategic metrics; Design focused on clarity and decision-making; Building a reusable system; Ongoing support for new digital initiatives.
 Solution: A design system for analytics, with visual hierarchy, standardized components and guidelines internal teams can replicate.
 Impact: Clearer, more actionable dashboards; Global adoption of the design system; More consistency across regions; Collaboration extended to several departments.
-Scope (project facts): 1 design system for analytics, replicable by internal teams; 5 solution areas, from dashboard redesign to guidelines; Power BI dashboard platform.
+Key fact: 1 design system (for the dashboards of several countries and business units).
 
 ### Real estate financing (Financial services · web platform)
 https://bluepixel.ai/en/case-studies/real-estate-financing-platform
@@ -578,8 +578,8 @@ Goal: Redesign the web experience of a real estate financing company, an alterna
 Challenge: A WordPress site with friction in navigation that depended on a third party even to update content.
 Approach: UX discovery; Usability testing; UX/UI experience redesign; Headless development with React and Strapi; Quality assurance (QA).
 Solution: UX discovery and usability testing, a redesigned experience and a new platform in React and Strapi that Marketing runs on its own.
-Impact: Marketing updates content, forms and the blog without depending on third parties; Changes that took one to two weeks now take minutes; A faster platform with better mobile performance; Faster response to campaigns and commercial needs.
-Scope (project facts): 2 areas addressed: user navigation and site operation; 5 stages, from UX discovery to quality assurance; Headless content managed separately from the interface.
+Impact: Marketing updates content, forms and the blog without depending on third parties; Changes that took one to two weeks now take minutes; A faster platform with better mobile performance.
+Key fact: From weeks to minutes (to publish a content change, without depending on a third party).
 
 ## Frequently asked questions
 
