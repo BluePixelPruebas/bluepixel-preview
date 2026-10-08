@@ -50,7 +50,7 @@ Idioma: español (México), con versión completa en inglés en https://bluepixe
 ## Transparencia
 
 - [Autoevaluación pública de este sitio](https://bluepixel.ai/autoevaluacion): puntaje, método y límites.
-- Las cifras de resultado de los casos de estudio se publican solo con su fuente y fecha de medición.
+- Las cifras de resultado de los casos de estudio se publican solo con su fuente y su fecha.
 - Legales: [Aviso de privacidad](https://bluepixel.ai/privacidad) · [Términos y condiciones](https://bluepixel.ai/terminos) · [Política del Sistema de Gestión de Seguridad de la Información](https://bluepixel.ai/politica-del-sgsi).
 
 ## Contacto
@@ -109,7 +109,7 @@ Language: English. Home: https://bluepixel.ai/en. The Spanish site (https://blue
 ## Transparency
 
 - [Public self-assessment of this site](https://bluepixel.ai/en/self-assessment): score, method and limits.
-- Case-study result figures are published only with their source and measurement date.
+- Case-study result figures are published only with their source and date.
 - Legal: [Privacy notice](https://bluepixel.ai/en/privacy) · [Terms of service](https://bluepixel.ai/en/terms) · [Information Security Management System Policy](https://bluepixel.ai/en/information-security-management-system-policy).
 
 ## Contact
