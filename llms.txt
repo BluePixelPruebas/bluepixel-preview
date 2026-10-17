@@ -13,11 +13,11 @@ Idioma: español (México), con versión completa en inglés en https://bluepixe
 
 ## Seis capacidades
 
-- [UX/UI y Estrategia de Producto](https://bluepixel.ai/capacidades/ux-ui-product-strategy): Diseño UX/UI y desarrollo web con investigación de usuarios, psicología conductual y metodología IMPATH™. Interfaces y Design Systems que tus usuarios adoptan.
+- [UX/UI y Estrategia de Producto](https://bluepixel.ai/capacidades/ux-ui-product-strategy): Diseño UX/UI, UX Research y estrategia de producto con metodología IMPATH™. Auditoría UX, interfaces y Design Systems que tus usuarios adoptan.
 - [Desarrollo de Software](https://bluepixel.ai/capacidades/software-engineering): Desarrollo de software empresarial cloud-native: plataformas web y móviles, APIs, microservicios y CI/CD sobre React, Node.js, Python y PostgreSQL.
 - [Agentes de IA y Automatización](https://bluepixel.ai/capacidades/agentic-ai-automation): Agentes de IA para empresas en México: RAG privado sobre tus datos, conectores MCP con tu ERP o CRM y despliegue en tu nube privada. Pruébalo aquí.
 - [Datos y Analítica](https://bluepixel.ai/capacidades/data-analytics): Telemetría de producto con Mixpanel, pipelines de datos y dashboards ejecutivos en tiempo real para decidir con evidencia de comportamiento.
-- [Seguridad y Confiabilidad](https://bluepixel.ai/capacidades/security-reliability): Seguridad como propiedad del software: arquitectura Zero-Trust, hardening OWASP Top 10, SAST, cifrado y aislamiento en tu VPC. Certificación CyberVadis vigente.
+- [Seguridad y Confiabilidad](https://bluepixel.ai/capacidades/security-reliability): Seguridad de software y confiabilidad: arquitectura Zero-Trust, hardening OWASP Top 10, SAST, cifrado y aislamiento en tu VPC. Certificación CyberVadis vigente.
 - [Estrategia y Consultoría](https://bluepixel.ai/capacidades/digital-consulting): Consultoría de IA para empresas: qué casos de uso son viables, cuánto cuesta no actuar y un roadmap trimestral alineado a tus objetivos financieros.
 
 ## Páginas de profundidad

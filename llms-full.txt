@@ -35,9 +35,15 @@ Entregables: Squad multidisciplinario dedicado (Tech Lead, AI Engineer, Senior F
 ### UX/UI y Estrategia de Producto
 https://bluepixel.ai/capacidades/ux-ui-product-strategy
 
-Investigamos la conducta real del usuario, probamos el prototipo con usuarios reales y entregamos un Design System listo para código, con la metodología IMPATH™.
+Combinamos UX Research, diseño UX/UI y estrategia de producto para entender el comportamiento del usuario, validar prototipos con personas reales y entregar un Design System listo para desarrollo, con la metodología IMPATH™.
 
 **¿Qué es un Design System?** Un Design System es el conjunto de componentes, reglas y tokens de diseño que comparten diseño e ingeniería: un botón se define una vez y se usa igual en todo el producto. Reduce el retrabajo y mantiene la interfaz coherente cuando el producto crece.
+
+**¿Qué es UX Research?** Es la investigación del comportamiento, las necesidades y las fricciones de los usuarios, con métodos cualitativos y cuantitativos, para decidir con evidencia qué diseñar. Es el primer paso del diseño UX/UI: antes de dibujar pantallas, se entiende por qué decide y por qué abandona el usuario.
+
+**¿Qué es una auditoría UX?** Es la revisión de una plataforma que ya está en producción para encontrar dónde se atora el usuario y qué le cuesta eso al negocio. Termina en un mapa de fricción y en un backlog de mejoras priorizado por impacto.
+
+**¿Qué diferencia hay entre estrategia de producto y consultoría digital?** La estrategia de producto decide qué producto construir, para quién y en qué orden, a partir del usuario y de la experiencia. La Consultoría Digital es el servicio que evalúa la inversión: business case, ROI y roadmap, antes de comprometer presupuesto en desarrollo. Se complementan, pero responden preguntas distintas.
 
 Lo que resuelve:
 - Se diseña por opinión y el usuario abandona siempre en el mismo paso. → Investigamos la conducta real y mapeamos la fricción del journey antes de diseñar.
@@ -45,7 +51,7 @@ Lo que resuelve:
 - Cada pantalla nueva se ve distinta y desarrollo la rehace a mano. → Un Design System con tokens que ingeniería usa directo en código.
 
 Qué recibes:
-- Mapa de fricción del journey del usuario: Dónde y por qué se atora el usuario, paso por paso.
+- Mapa de fricción y hallazgos de UX Research: Dónde y por qué se atora el usuario, paso por paso.
 - Prototipo interactivo validado: Probado con usuarios reales antes de escribir código.
 - Design System con tokens listos para consumirse en código: Componentes y tokens documentados que ingeniería usa tal cual.
 - Backlog de mejoras priorizado por impacto: Qué mejorar primero, ordenado por impacto.
@@ -60,7 +66,13 @@ Preguntas:
 ### Desarrollo de Software
 https://bluepixel.ai/capacidades/software-engineering
 
-Plataformas web y móviles cloud-native sobre React, Node.js, Python, TypeScript y PostgreSQL, con pruebas automatizadas en cada despliegue.
+Diseñamos y desarrollamos software empresarial a la medida, APIs, integraciones y arquitecturas cloud-native preparadas para crecer, integrarse y evolucionar, con pruebas automatizadas en cada despliegue. Trabajamos con tecnologías como React, Node.js, Python, TypeScript y PostgreSQL.
+
+**¿Qué es el software a la medida?** Es software diseñado alrededor de los procesos, usuarios e integraciones particulares de una empresa, en lugar de adaptar la operación a las limitaciones de una solución estándar. Tiene sentido cuando el proceso es una ventaja competitiva, cuando hay que integrar sistemas que ninguna licencia conecta o cuando el costo de adaptarse supera el de construir.
+
+**¿Cuál es la diferencia entre desarrollo de software, desarrollo web y desarrollo de aplicaciones móviles?** El desarrollo de software es la capacidad general de ingeniería: arquitectura, APIs, integraciones, datos y despliegue. El desarrollo web y el de aplicaciones móviles son dos formas concretas de esa capacidad, cada una con su propia página. Cuando el proyecto es un producto completo que combina estrategia, UX, web, móvil y datos, se contrata como Plataformas Digitales (Servicio 03).
+
+**¿Pueden modernizar software existente o solo construir desde cero?** También modernizamos software existente, por partes y sin detener la operación: se refactoriza lo que más fricción o costo genera y se integra con lo que ya funciona. Cuando es un trabajo continuo, se contrata como Evolución Digital (Servicio 04).
 
 **¿Qué es una arquitectura desacoplada?** Una arquitectura desacoplada divide el sistema en piezas independientes que se comunican por interfaces estables, de modo que una se puede cambiar o escalar sin romper las demás. Es lo que permite cambiar de proveedor de nube o de modelo de IA por configuración.
 
@@ -87,13 +99,17 @@ Preguntas:
 ### Agentes de IA y Automatización
 https://bluepixel.ai/capacidades/agentic-ai-automation
 
-El agente consulta tu ERP o tu CRM vía MCP, ejecuta la tarea y cita su fuente. Sin reemplazar tus sistemas.
+Diseñamos agentes de IA para automatizar procesos empresariales: consultan tus sistemas (ERP, CRM, APIs), usan tu información corporativa y ejecutan la tarea sin reemplazar tu tecnología actual. Las integraciones se hacen con APIs, MCP y otros conectores, según cada sistema.
 
 **¿Qué es un agente de IA?** Un sistema que recibe un objetivo, decide los pasos y usa herramientas (consultar un sistema, calcular, enviar una solicitud) para cumplirlo, con supervisión y límites definidos. Un asistente conversa; un agente ejecuta. Por ejemplo: resuelve una solicitud de un cliente de principio a fin, concilia facturas contra el ERP o valida los documentos para dar de alta a un proveedor.
 
 **¿Qué es RAG?** RAG (generación aumentada por recuperación) es la técnica en la que el modelo primero busca fragmentos relevantes en una base de conocimiento propia y responde apoyándose en ellos, citando la fuente. Reduce las respuestas inventadas porque el agente puede abstenerse cuando no encuentra sustento.
 
 **¿En qué se diferencia de RPA?** RPA automatiza pasos fijos y predecibles; un agente maneja excepciones y lenguaje natural. En proyectos reales suelen combinarse: RPA para lo repetitivo y agentes para lo que requiere criterio.
+
+**¿Qué es MCP y para qué sirve en un agente de IA?** MCP (Model Context Protocol) es un protocolo abierto que conecta a un agente de IA con herramientas y sistemas, como un ERP, un CRM o una base de datos, de forma estándar y con permisos definidos. Sirve para que el agente consulte y ejecute acciones sin integraciones frágiles hechas a mano, y para cambiar de modelo sin rehacer las conexiones.
+
+**¿Qué son los guardrails de IA?** Son los límites técnicos que mantienen a un agente dentro de lo permitido: filtros contra inyección de instrucciones, enmascaramiento de datos personales (DLP), acciones que requieren la aprobación de una persona y el registro de cada ejecución.
 
 Lo que resuelve:
 - Tu equipo copia datos a mano entre el ERP, el CRM y el correo. → Un agente consulta tus sistemas vía MCP y ejecuta la tarea.
@@ -114,7 +130,11 @@ Preguntas:
 ### Datos y Analítica
 https://bluepixel.ai/capacidades/data-analytics
 
-Qué hace tu usuario y qué KPI se movió, en un tablero para dirección: telemetría de producto, pipelines de datos y dashboards ejecutivos.
+Conectamos telemetría de producto, pipelines de datos y dashboards ejecutivos para entender qué hacen los usuarios, qué KPIs cambian y por qué.
+
+**¿Qué es Product Analytics?** Es el análisis del comportamiento de los usuarios dentro de un producto digital: qué funciones usan, en qué orden, dónde abandonan y qué los hace volver. Responde a preguntas de producto con datos y alimenta los KPIs que ve dirección.
+
+**¿Qué es una taxonomía de eventos?** Es el catálogo de eventos que mide una plataforma, con nombres y propiedades definidos de antemano y una sola definición por cada acción. Evita que cada área mida lo mismo con otro nombre y es lo que permite rastrear cada cifra hasta el evento que la originó.
 
 **¿Qué es la telemetría de producto?** La telemetría de producto es el registro de lo que hacen los usuarios dentro de una plataforma (qué abren, dónde se detienen, dónde abandonan), con nombres de eventos definidos de antemano. Convierte las suposiciones en evidencia al decidir qué mejorar primero.
 
@@ -127,8 +147,9 @@ Lo que resuelve:
 
 Qué recibes:
 - Plan de medición y taxonomía de eventos: Qué se mide, con qué nombre y para qué decisión.
+- Instrumentación de telemetría: Eventos y propiedades implementados y validados.
 - Dashboards ejecutivos: Los KPIs de dirección en una sola vista.
-- UX Health Score continuo dentro de Evolución Digital: La salud de la experiencia, medida mes a mes.
+- Pipeline o modelo de datos: Cuando el proyecto requiere conectar distintas fuentes.
 
 Preguntas:
 - **¿Qué herramientas de analítica usan?** Mixpanel para la telemetría de producto, es decir, qué hacen los usuarios dentro de la plataforma, y pipelines de datos que llevan esa información a tableros ejecutivos. Los tableros se construyen sobre la herramienta que tu empresa ya usa, como Power BI, Tableau o Looker, para no sumar otra licencia. Cada cifra queda rastreable hasta el evento que la originó.
@@ -137,9 +158,17 @@ Preguntas:
 ### Seguridad y Confiabilidad
 https://bluepixel.ai/capacidades/security-reliability
 
-Zero-Trust, hardening OWASP Top 10 en cada release y un pipeline que se bloquea ante dependencias vulnerables. Cifrado y aislamiento dentro de tu VPC.
+Integramos la seguridad desde el diseño, el desarrollo y el despliegue para reducir vulnerabilidades antes de que lleguen a producción: arquitectura Zero-Trust, hardening OWASP Top 10 en cada release, análisis automatizado de código y dependencias, y cifrado y aislamiento dentro de tu VPC.
 
 **¿Qué es la arquitectura Zero-Trust?** Zero-Trust es un modelo de seguridad en el que ningún usuario, servicio ni red se considera confiable por defecto: cada acceso se verifica y se limita a lo mínimo necesario. Reduce el daño posible si una credencial o un componente queda expuesto.
+
+**¿Qué es DevSecOps?** DevSecOps integra la seguridad en el mismo flujo con el que se desarrolla y se despliega el software, en lugar de revisarla al final. Incluye análisis automatizado del código (SAST), escaneo de dependencias vulnerables y controles que detienen el despliegue cuando algo no cumple.
+
+**¿Qué es OWASP Top 10?** Es la lista, publicada por la fundación OWASP, de los diez riesgos de seguridad más críticos en aplicaciones web, como controles de acceso rotos o inyecciones. En BluePixel se usa como criterio de endurecimiento (hardening) en cada release.
+
+**¿BluePixel realiza pruebas de penetración?** No. BluePixel no ofrece pruebas de penetración ni auditorías de ciberseguridad: esas pruebas las hace una firma especializada e independiente. Nosotros construimos con seguridad desde el diseño y remediamos, en el código, la nube y la arquitectura, los hallazgos que esa firma entregue.
+
+**¿Cuál es la diferencia entre seguridad de software y una auditoría de ciberseguridad?** La seguridad de software es una propiedad de lo que se construye: arquitectura, código, dependencias, cifrado y aislamiento. Una auditoría de ciberseguridad evalúa de forma independiente la postura de una organización completa. Esta capacidad cubre lo primero y no sustituye a lo segundo.
 
 Lo que resuelve:
 - La seguridad se revisa al final, cuando corregir cuesta más. → Zero-Trust y hardening OWASP Top 10 desde el primer sprint.
@@ -166,6 +195,12 @@ https://bluepixel.ai/capacidades/digital-consulting
 
 Antes de invertir en IA, evaluamos qué casos de uso son viables, cuánto cuesta no actuar y en qué orden conviene hacerlo, con un roadmap ejecutivo trimestral alineado a tus objetivos financieros.
 
+**¿Qué es un business case tecnológico?** Es el documento que justifica una inversión en tecnología con números: qué se va a construir, cuánto cuesta construirlo y operarlo, qué retorno se proyecta y qué pasa si no se hace. Permite que dirección o el consejo decidan con criterios económicos y no por entusiasmo.
+
+**¿Cómo se calcula el ROI proyectado de un proyecto digital?** Se compara la inversión contra el ahorro o el ingreso adicional esperado, a partir de supuestos que se acuerdan contigo y quedan por escrito: horas, errores, volumen y costo de operar la solución. Es una proyección, no una promesa de retorno.
+
+**¿Qué son IMPATH™ y FutureProof™?** IMPATH™ es la metodología propia de BluePixel para diagnosticar la fricción operativa y de experiencia de una operación. FutureProof™ es el marco de cinco principios con el que se diseña y se entrega lo que se construye. Una diagnostica; la otra guía cómo se construye.
+
 **¿Qué es el costo de inacción?** El costo de inacción es lo que una empresa pierde cada mes por no resolver un problema: horas en tareas manuales, errores y oportunidades que no se cierran. Calcularlo antes de invertir permite comparar el costo de actuar contra el de esperar.
 
 Lo que resuelve:
@@ -175,7 +210,7 @@ Lo que resuelve:
 
 Qué recibes:
 - Diagnóstico de fricción operativa IMPATH™: Dónde se pierden tiempo y dinero en la operación.
-- Arquitectura técnica recomendada: Qué construir y sobre qué, antes de escribir código.
+- Recomendación de solución y arquitectura: Qué construir, comprar o integrar, y sobre qué base, antes de escribir código.
 - Backlog priorizado por impacto financiero: Qué va primero, según su impacto financiero.
 - Business case con ROI proyectado y costo de inacción: El retorno proyectado y lo que cuesta esperar.
 
@@ -464,8 +499,9 @@ What it solves:
 
 What you receive:
 - Measurement plan and event taxonomy: What is measured, under which name, and for which decision.
+- Telemetry instrumentation: Events and properties implemented and validated.
 - Executive dashboards: Leadership KPIs in a single view.
-- Continuous UX Health Score within Digital Evolution: The health of the experience, measured month by month.
+- Data pipeline or model: When the project needs to connect several sources.
 
 Questions:
 - **What analytics tools do you use?** Mixpanel for product telemetry, data pipelines and executive dashboards on the tool you already have, such as Power BI, Tableau or Looker.
