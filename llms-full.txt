@@ -35,7 +35,7 @@ Entregables: Squad multidisciplinario dedicado (Tech Lead, AI Engineer, Senior F
 ### UX/UI y Estrategia de Producto
 https://bluepixel.ai/capacidades/ux-ui-product-strategy
 
-Combinamos UX Research, diseño UX/UI y estrategia de producto para entender el comportamiento del usuario, validar prototipos con personas reales y entregar un Design System listo para desarrollo, con la metodología IMPATH™.
+UX Research, prototipos probados con usuarios reales y un Design System listo para código.
 
 **¿Qué es un Design System?** Un Design System es el conjunto de componentes, reglas y tokens de diseño que comparten diseño e ingeniería: un botón se define una vez y se usa igual en todo el producto. Reduce el retrabajo y mantiene la interfaz coherente cuando el producto crece.
 
@@ -66,7 +66,7 @@ Preguntas:
 ### Desarrollo de Software
 https://bluepixel.ai/capacidades/software-engineering
 
-Diseñamos y desarrollamos software empresarial a la medida, APIs, integraciones y arquitecturas cloud-native preparadas para crecer, integrarse y evolucionar, con pruebas automatizadas en cada despliegue. Trabajamos con tecnologías como React, Node.js, Python, TypeScript y PostgreSQL.
+Software a la medida, APIs e integraciones cloud-native, con pruebas automatizadas en cada despliegue.
 
 **¿Qué es el software a la medida?** Es software diseñado alrededor de los procesos, usuarios e integraciones particulares de una empresa, en lugar de adaptar la operación a las limitaciones de una solución estándar. Tiene sentido cuando el proceso es una ventaja competitiva, cuando hay que integrar sistemas que ninguna licencia conecta o cuando el costo de adaptarse supera el de construir.
 
@@ -99,7 +99,7 @@ Preguntas:
 ### Agentes de IA y Automatización
 https://bluepixel.ai/capacidades/agentic-ai-automation
 
-Diseñamos agentes de IA para automatizar procesos empresariales: consultan tus sistemas (ERP, CRM, APIs), usan tu información corporativa y ejecutan la tarea sin reemplazar tu tecnología actual. Las integraciones se hacen con APIs, MCP y otros conectores, según cada sistema.
+Agentes de IA que automatizan procesos sobre tu ERP y tu CRM, con tu información y sin reemplazar tus sistemas.
 
 **¿Qué es un agente de IA?** Un sistema que recibe un objetivo, decide los pasos y usa herramientas (consultar un sistema, calcular, enviar una solicitud) para cumplirlo, con supervisión y límites definidos. Un asistente conversa; un agente ejecuta. Por ejemplo: resuelve una solicitud de un cliente de principio a fin, concilia facturas contra el ERP o valida los documentos para dar de alta a un proveedor.
 
@@ -130,7 +130,7 @@ Preguntas:
 ### Datos y Analítica
 https://bluepixel.ai/capacidades/data-analytics
 
-Conectamos telemetría de producto, pipelines de datos y dashboards ejecutivos para entender qué hacen los usuarios, qué KPIs cambian y por qué.
+Telemetría, pipelines y dashboards ejecutivos: qué hacen tus usuarios, qué KPI cambió y por qué.
 
 **¿Qué es Product Analytics?** Es el análisis del comportamiento de los usuarios dentro de un producto digital: qué funciones usan, en qué orden, dónde abandonan y qué los hace volver. Responde a preguntas de producto con datos y alimenta los KPIs que ve dirección.
 
@@ -158,7 +158,7 @@ Preguntas:
 ### Seguridad y Confiabilidad
 https://bluepixel.ai/capacidades/security-reliability
 
-Integramos la seguridad desde el diseño, el desarrollo y el despliegue para reducir vulnerabilidades antes de que lleguen a producción: arquitectura Zero-Trust, hardening OWASP Top 10 en cada release, análisis automatizado de código y dependencias, y cifrado y aislamiento dentro de tu VPC.
+Software seguro desde el primer sprint: Zero-Trust, OWASP Top 10 en cada release y cifrado dentro de tu VPC.
 
 **¿Qué es la arquitectura Zero-Trust?** Zero-Trust es un modelo de seguridad en el que ningún usuario, servicio ni red se considera confiable por defecto: cada acceso se verifica y se limita a lo mínimo necesario. Reduce el daño posible si una credencial o un componente queda expuesto.
 
@@ -193,7 +193,7 @@ Preguntas:
 ### Estrategia y Consultoría
 https://bluepixel.ai/capacidades/digital-consulting
 
-Antes de invertir en IA, evaluamos qué casos de uso son viables, cuánto cuesta no actuar y en qué orden conviene hacerlo, con un roadmap ejecutivo trimestral alineado a tus objetivos financieros.
+Qué casos de IA son viables, cuánto cuesta no actuar y en qué orden hacerlo, con un roadmap trimestral.
 
 **¿Qué es un business case tecnológico?** Es el documento que justifica una inversión en tecnología con números: qué se va a construir, cuánto cuesta construirlo y operarlo, qué retorno se proyecta y qué pasa si no se hace. Permite que dirección o el consejo decidan con criterios económicos y no por entusiasmo.
 
@@ -407,7 +407,7 @@ Deliverables: Dedicated multidisciplinary squad (Tech Lead, AI Engineer, Senior 
 ### UX/UI & Product Strategy
 https://bluepixel.ai/en/capabilities/ux-ui-product-strategy
 
-We study how your users actually behave, test the prototype with real users and deliver a code-ready Design System, using the IMPATH™ methodology.
+UX research, prototypes tested with real users and a Design System ready for code.
 
 **What is a Design System?** A Design System is the set of components, rules and design tokens shared by design and engineering: a button is defined once and used the same way across the whole product. It cuts rework and keeps the interface consistent as the product grows.
 
@@ -432,7 +432,7 @@ Questions:
 ### Software Engineering
 https://bluepixel.ai/en/capabilities/software-engineering
 
-Cloud-native web and mobile platforms on React, Node.js, Python, TypeScript and PostgreSQL, with automated tests on every deployment.
+Custom software, APIs and cloud-native integrations, with automated tests on every deployment.
 
 **What is a decoupled architecture?** A decoupled architecture splits the system into independent pieces that talk through stable interfaces, so one can be changed or scaled without breaking the others. It is what lets you switch cloud provider or AI model by configuration.
 
@@ -459,7 +459,7 @@ Questions:
 ### Agentic AI & Automation
 https://bluepixel.ai/en/capabilities/agentic-ai-automation
 
-The agent queries your ERP or CRM via MCP, completes the task and cites its source. No need to replace your systems.
+AI agents that automate processes on your ERP and your CRM, using your data and without replacing your systems.
 
 **What is an AI agent?** A system that receives a goal, decides the steps and uses tools (querying a system, calculating, sending a request) to get it done, under defined supervision and limits. An assistant talks; an agent acts. For example: it resolves a customer request end to end, reconciles invoices against the ERP or validates the documents to onboard a supplier.
 
@@ -486,7 +486,7 @@ Questions:
 ### Data & Analytics
 https://bluepixel.ai/en/capabilities/data-analytics
 
-What your users do and which KPI moved, on one dashboard for leadership: product telemetry, data pipelines and executive dashboards.
+Telemetry, pipelines and executive dashboards: what your users do, which KPI moved and why.
 
 **What is product telemetry?** Product telemetry is the record of what users do inside a platform (what they open, where they pause, where they drop off), with event names defined in advance. It turns assumptions into evidence when deciding what to improve first.
 
@@ -510,7 +510,7 @@ Questions:
 ### Security & Reliability
 https://bluepixel.ai/en/capabilities/security-reliability
 
-Zero-Trust, OWASP Top 10 hardening in every release and a pipeline that blocks vulnerable dependencies. Encryption and isolation inside your VPC.
+Secure software from the first sprint: Zero-Trust, OWASP Top 10 in every release and encryption inside your VPC.
 
 **What is Zero-Trust architecture?** Zero-Trust is a security model in which no user, service or network is trusted by default: every access is verified and limited to the minimum needed. It reduces the possible damage if a credential or a component is exposed.
 
@@ -537,7 +537,7 @@ Questions:
 ### Digital Consulting
 https://bluepixel.ai/en/capabilities/digital-consulting
 
-Before investing in AI, we assess which use cases are viable, what not acting costs you and in what order to move, with a quarterly executive roadmap aligned with your financial goals.
+Which AI use cases are viable, what inaction costs and in what order to act, with a quarterly roadmap.
 
 **What is the cost of inaction?** The cost of inaction is what a company loses every month by not solving a problem: hours on manual tasks, errors and opportunities that never close. Calculating it before investing lets you compare the cost of acting with the cost of waiting.
 
