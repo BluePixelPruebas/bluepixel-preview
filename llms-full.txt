@@ -7,7 +7,7 @@ https://bluepixel.ai/servicios/consultoria-digital
 
 Brindar certidumbre técnica, financiera y estratégica antes de comprometer capital en desarrollo.
 Plazo: 2 a 4 semanas.
-Entregables: Diagnóstico de fricción operativa IMPATH™; Arquitectura técnica recomendada; Backlog priorizado por impacto financiero; Business case con ROI proyectado; Cálculo del costo de inacción.
+Entregables: Diagnóstico de fricción operativa IMPATH™; Arquitectura técnica recomendada; Backlog priorizado por impacto financiero; Business case con ROI proyectado y costo de inacción.
 
 ### 02 · Agentes & Automatización
 https://bluepixel.ai/servicios/agentes-automatizacion
@@ -379,7 +379,7 @@ https://bluepixel.ai/en/services/digital-consulting
 
 To provide technical, financial and strategic certainty before committing capital to development.
 Timeline: 2 to 4 weeks.
-Deliverables: IMPATH™ operational friction diagnostic; Recommended technical architecture; Backlog prioritized by financial impact; Business case with projected ROI; Cost of inaction calculation.
+Deliverables: IMPATH™ operational friction diagnostic; Recommended technical architecture; Backlog prioritized by financial impact; Business case with projected ROI and cost of inaction.
 
 ### 02 · Agents & Automation
 https://bluepixel.ai/en/services/agents-automation
