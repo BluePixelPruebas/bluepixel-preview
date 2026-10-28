@@ -1,0 +1,1 @@
+import{e}from"./analytics.C2-Ek7WN.js";import{i as o}from"./esquema-proceso.CiCuA9UV.js";for(const a of document.querySelectorAll("[data-descarga]"))a.addEventListener("click",()=>e("descarga_pdf",{archivo:a.dataset.descarga,pagina:location.pathname}));o();

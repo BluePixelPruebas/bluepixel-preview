@@ -6,14 +6,14 @@ Idioma: español (México), con versión completa en inglés en https://bluepixe
 
 ## Cuatro formas independientes de trabajar (no son etapas obligatorias)
 
-- [Servicio 01 · Consultoría Digital](https://bluepixel.ai/servicios/consultoria-digital): 2 a 4 semanas. Brindar certidumbre técnica, financiera y estratégica antes de comprometer capital en desarrollo.
-- [Servicio 02 · Agentes & Automatización](https://bluepixel.ai/servicios/agentes-automatizacion): 2 a 4 semanas. Poner en producción flujos agénticos e integraciones determinísticas sobre el stack tecnológico actual del cliente.
-- [Servicio 03 · Plataformas Digitales](https://bluepixel.ai/servicios/plataformas-digitales): 2 a 4 meses. Diseñar, validar y construir desde cero plataformas web, móviles o MVPs corporativos escalables.
-- [Servicio 04 · Evolución Digital](https://bluepixel.ai/servicios/evolucion-digital): Roadmap vivo de 6 o 12 meses. Acompañamiento tecnológico continuo para optimizar, escalar y evolucionar activos digitales existentes.
+- [Servicio 01 · Consultoría Digital](https://bluepixel.ai/servicios/consultoria-digital): 2 a 4 semanas. Te damos certeza técnica, financiera y estratégica antes de que comprometas presupuesto en desarrollo.
+- [Servicio 02 · Agentes & Automatización](https://bluepixel.ai/servicios/agentes-automatizacion): 2 a 4 semanas. Ponemos en producción agentes de IA e integraciones que responden igual cada vez, sobre los sistemas que ya usas.
+- [Servicio 03 · Plataformas Digitales](https://bluepixel.ai/servicios/plataformas-digitales): 2 a 4 meses. Diseñamos, validamos y construimos desde cero tu plataforma web, móvil o MVP, lista para crecer.
+- [Servicio 04 · Evolución Digital](https://bluepixel.ai/servicios/evolucion-digital): Roadmap vivo de 6 o 12 meses. Te acompañamos de forma continua para optimizar, escalar y evolucionar las plataformas que ya tienes.
 
 ## Seis capacidades
 
-- [UX/UI y Estrategia de Producto](https://bluepixel.ai/capacidades/ux-ui-product-strategy): Diseño UX/UI, UX Research y estrategia de producto con metodología IMPATH™. Auditoría UX, interfaces y Design Systems que tus usuarios adoptan.
+- [UX/UI y Estrategia de Producto](https://bluepixel.ai/capacidades/ux-ui-product-strategy): Diseño UX/UI, UX Research y estrategia de producto con gemelos digitales de tus usuarios. Auditoría UX, interfaces y Design Systems que tus usuarios adoptan.
 - [Desarrollo de Software](https://bluepixel.ai/capacidades/software-engineering): Desarrollo de software empresarial cloud-native: plataformas web y móviles, APIs, microservicios y CI/CD sobre React, Node.js, Python y PostgreSQL.
 - [Agentes de IA y Automatización](https://bluepixel.ai/capacidades/agentic-ai-automation): Agentes de IA para empresas en México: RAG privado sobre tus datos, conectores MCP con tu ERP o CRM y despliegue en tu nube privada. Pruébalo aquí.
 - [Datos y Analítica](https://bluepixel.ai/capacidades/data-analytics): Telemetría de producto con Mixpanel, pipelines de datos y dashboards ejecutivos en tiempo real para decidir con evidencia de comportamiento.
@@ -25,7 +25,7 @@ Idioma: español (México), con versión completa en inglés en https://bluepixe
 - [Desarrollo de aplicaciones móviles](https://bluepixel.ai/capacidades/software-engineering/aplicaciones-moviles): nativa, multiplataforma (React Native) o web app, con UX validado y APIs hacia los sistemas del cliente.
 - [Desarrollo web a la medida](https://bluepixel.ai/capacidades/software-engineering/desarrollo-web): sitio estático, autoadministrable, tienda en línea o aplicación web a la medida, con UX validado y APIs hacia los sistemas del cliente.
 - [Garantía FutureProof™](https://bluepixel.ai/futureproof): el sistema con el que se diseñan, construyen y evolucionan las plataformas, sus cinco principios y la diferencia frente a una fábrica de software.
-- [Metodología IMPATH™ y principios FutureProof™](https://bluepixel.ai/metodologia-impath): diagnóstico de fricción operativa y cinco principios de ingeniería, cada uno con una prueba ejecutable.
+- [Metodología IMPATH™ y principios FutureProof™](https://bluepixel.ai/metodologia-impath): diagnóstico de fricción con gemelos digitales de usuarios, que recorren los flujos de la operación y muestran dónde se pierde dinero, y cinco principios de ingeniería, cada uno con una prueba ejecutable.
 
 ## Principios
 
@@ -65,14 +65,14 @@ Language: English. Home: https://bluepixel.ai/en. The Spanish site (https://blue
 
 ## Four independent ways to work together (not mandatory stages)
 
-- [Service 01 · Digital Consulting](https://bluepixel.ai/en/services/digital-consulting): 2 to 4 weeks. To provide technical, financial and strategic certainty before committing capital to development.
-- [Service 02 · Agents & Automation](https://bluepixel.ai/en/services/agents-automation): 2 to 4 weeks. To put agentic workflows and deterministic integrations into production on the client's existing technology stack.
-- [Service 03 · Digital Platforms](https://bluepixel.ai/en/services/digital-platforms): 2 to 4 months. To design, validate and build scalable web and mobile platforms or corporate MVPs from scratch.
-- [Service 04 · Digital Evolution](https://bluepixel.ai/en/services/digital-evolution): Living roadmap of 6 or 12 months. Continuous technology support to optimize, scale and evolve existing digital assets.
+- [Service 01 · Digital Consulting](https://bluepixel.ai/en/services/digital-consulting): 2 to 4 weeks. We give you technical, financial and strategic certainty before you commit budget to development.
+- [Service 02 · Agents & Automation](https://bluepixel.ai/en/services/agents-automation): 2 to 4 weeks. We put AI agents and integrations that respond the same way every time into production, on the systems you already use.
+- [Service 03 · Digital Platforms](https://bluepixel.ai/en/services/digital-platforms): 2 to 4 months. We design, validate and build your web or mobile platform or MVP from scratch, ready to grow.
+- [Service 04 · Digital Evolution](https://bluepixel.ai/en/services/digital-evolution): Living roadmap of 6 or 12 months. We stay with you continuously to optimize, scale and evolve the platforms you already have.
 
 ## Six capabilities
 
-- [UX/UI & Product Strategy](https://bluepixel.ai/en/capabilities/ux-ui-product-strategy): UX/UI design and web development with user research, behavioral psychology and the IMPATH™ methodology. Interfaces and Design Systems your users adopt.
+- [UX/UI & Product Strategy](https://bluepixel.ai/en/capabilities/ux-ui-product-strategy): UX/UI design and web development with user research, behavioral psychology and digital twins of your users. Interfaces and Design Systems your users adopt.
 - [Software Engineering](https://bluepixel.ai/en/capabilities/software-engineering): Cloud-native enterprise software development: web and mobile platforms, APIs, microservices and CI/CD on React, Node.js, Python and PostgreSQL.
 - [Agentic AI & Automation](https://bluepixel.ai/en/capabilities/agentic-ai-automation): AI agents for companies in Mexico: private RAG over your data, MCP connectors to your ERP or CRM and deployment in your private cloud. Try it here.
 - [Data & Analytics](https://bluepixel.ai/en/capabilities/data-analytics): Product telemetry with Mixpanel, data pipelines and real-time executive dashboards to decide with evidence of behavior.
@@ -84,7 +84,7 @@ Language: English. Home: https://bluepixel.ai/en. The Spanish site (https://blue
 - [Mobile app development](https://bluepixel.ai/en/capabilities/software-engineering/mobile-apps): native, cross-platform (React Native) or web app, with validated UX and APIs into the client's systems.
 - [Custom web development](https://bluepixel.ai/en/capabilities/software-engineering/web-development): static site, self-managed site, online store or custom web application, with validated UX and APIs into the client's systems.
 - [FutureProof™ guarantee](https://bluepixel.ai/en/futureproof): the system used to design, build and evolve platforms, its five principles and how it differs from a software factory.
-- [IMPATH™ methodology and FutureProof™ principles](https://bluepixel.ai/en/methodology): operational friction diagnosis and five engineering principles, each with an executable proof.
+- [IMPATH™ methodology and FutureProof™ principles](https://bluepixel.ai/en/methodology): friction diagnosis with digital twins of users, which walk through the operation's flows and show where money is lost, and five engineering principles, each with an executable proof.
 
 ## Principles
 

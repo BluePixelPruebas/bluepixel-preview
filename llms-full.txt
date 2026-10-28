@@ -5,28 +5,28 @@
 ### 01 · Consultoría Digital
 https://bluepixel.ai/servicios/consultoria-digital
 
-Brindar certidumbre técnica, financiera y estratégica antes de comprometer capital en desarrollo.
+Te damos certeza técnica, financiera y estratégica antes de que comprometas presupuesto en desarrollo.
 Plazo: 2 a 4 semanas.
-Entregables: Diagnóstico de fricción operativa IMPATH™; Arquitectura técnica recomendada; Backlog priorizado por impacto financiero; Business case con ROI proyectado y costo de inacción.
+Entregables: Diagnóstico de fricción con gemelos digitales; Arquitectura técnica recomendada; Backlog priorizado por impacto financiero; Business case con ROI proyectado y costo de inacción.
 
 ### 02 · Agentes & Automatización
 https://bluepixel.ai/servicios/agentes-automatizacion
 
-Poner en producción flujos agénticos e integraciones determinísticas sobre el stack tecnológico actual del cliente.
+Ponemos en producción agentes de IA e integraciones que responden igual cada vez, sobre los sistemas que ya usas.
 Plazo: 2 a 4 semanas.
 Entregables: Agentes de IA autónomos (Agentic Automation); RAG privado sobre datos corporativos reales, diseñado para abstenerse cuando no hay sustento; Conectores determinísticos vía MCP (SAP, Salesforce, ERPs, APIs bancarias y logísticas); Despliegue en nube privada.
 
 ### 03 · Plataformas Digitales
 https://bluepixel.ai/servicios/plataformas-digitales
 
-Diseñar, validar y construir desde cero plataformas web, móviles o MVPs corporativos escalables.
+Diseñamos, validamos y construimos desde cero tu plataforma web, móvil o MVP, lista para crecer.
 Plazo: 2 a 4 meses.
-Entregables: Product Strategy (PS), prototipado y validación con usuarios reales; Diseño de UI de clase mundial; Desarrollo Full Stack Cloud-Native con arquitectura desacoplada; Pruebas automatizadas; Despliegue productivo con SLA 99.9%.
+Entregables: Product Strategy (PS), prototipado y validación con usuarios reales; Diseño de interfaz probado con usuarios reales; Desarrollo Full Stack Cloud-Native con arquitectura desacoplada; Pruebas automatizadas; Despliegue productivo con SLA 99.9%.
 
 ### 04 · Evolución Digital
 https://bluepixel.ai/servicios/evolucion-digital
 
-Acompañamiento tecnológico continuo para optimizar, escalar y evolucionar activos digitales existentes.
+Te acompañamos de forma continua para optimizar, escalar y evolucionar las plataformas que ya tienes.
 Plazo: Roadmap vivo de 6 o 12 meses.
 Entregables: Squad multidisciplinario dedicado (Tech Lead, AI Engineer, Senior Full Stack, UX/CRO Specialist); Monitoreo de UX Health Score; Reducción sistemática de deuda técnica; Optimización de tasas de conversión (CRO); Soporte con SLA empresarial.
 
@@ -58,10 +58,10 @@ Qué recibes:
 
 Preguntas:
 - **¿Cuál es la diferencia entre UX/UI y estrategia de producto?** UX/UI define cómo se ve y se siente el producto; la estrategia de producto define qué producto construir, para quién y en qué orden. Las trabajamos juntas para que el diseño responda a un objetivo de negocio medible.
-- **¿Validan el diseño con usuarios reales?** Sí. En Plataformas Digitales (Servicio 03) el prototipo interactivo se prueba con usuarios reales antes de pasar a desarrollo, para corregir lo que no se entiende cuando todavía es barato cambiarlo. La investigación sigue la metodología IMPATH™, que conecta la conducta del usuario con su costo para el negocio, y lo que se aprende queda en el backlog priorizado por impacto.
+- **¿Validan el diseño con usuarios reales?** Sí. En Plataformas Digitales (Servicio 03) el prototipo interactivo se prueba con usuarios reales antes de pasar a desarrollo, para corregir lo que no se entiende cuando todavía es barato cambiarlo. La investigación usa gemelos digitales de tus usuarios (metodología IMPATH™), que conectan su conducta con su costo para el negocio, y lo que se aprende queda en el backlog priorizado por impacto.
 - **¿Entregan un Design System?** Sí. BluePixel entrega un Design System con componentes y tokens documentados (color, tipografía, espaciado y estados) que el equipo de ingeniería consume directamente en el código. Así la interfaz se mantiene igual en web y móvil, y cada pantalla nueva se arma con piezas ya probadas en lugar de rediseñarse desde cero, lo que también acelera las siguientes entregas.
 - **¿También desarrollan el código?** Sí. La capacidad de Desarrollo de Software construye lo que se diseña, o entregamos el Design System y el prototipo documentados para que los programe tu equipo.
-- **¿Pueden rediseñar una plataforma que ya está en producción?** Sí. Primero se mapea dónde se atora el usuario con un diagnóstico de fricción IMPATH™ y datos de comportamiento, y después se rediseña lo que más impacto tiene, por partes y sin detener la operación. Así la plataforma mejora en cada entrega en lugar de esperar un relanzamiento completo; un ejemplo es el rediseño de la compra móvil de una cadena de retail.
+- **¿Pueden rediseñar una plataforma que ya está en producción?** Sí. Primero se mapea dónde se atora el usuario con gemelos digitales de tus usuarios y datos de comportamiento, y después se rediseña lo que más impacto tiene, por partes y sin detener la operación. Así la plataforma mejora en cada entrega en lugar de esperar un relanzamiento completo; un ejemplo es el rediseño de la compra móvil de una cadena de retail.
 
 ### Desarrollo de Software
 https://bluepixel.ai/capacidades/software-engineering
@@ -85,7 +85,7 @@ Lo que resuelve:
 
 Qué recibes:
 - Arquitectura desacoplada documentada: Diagramas y decisiones para que tu equipo entienda y mantenga el sistema.
-- Código fuente y datos en la nube privada del cliente: Todo vive en tu nube, no en la nuestra.
+- Tu código fuente y tus datos, en tu nube privada: Todo vive en tu nube, no en la nuestra.
 - Pruebas automatizadas y despliegue productivo: Cada cambio pasa por pruebas antes de llegar a producción.
 - Observabilidad y SLA 99.9% en la modalidad Plataformas Digitales: Errores y disponibilidad a la vista desde el primer despliegue.
 - Infraestructura como código: Tu nube se crea con código versionado: se puede repetir y auditar.
@@ -199,7 +199,7 @@ Qué casos de IA son viables, cuánto cuesta no actuar y en qué orden hacerlo, 
 
 **¿Cómo se calcula el ROI proyectado de un proyecto digital?** Se compara la inversión contra el ahorro o el ingreso adicional esperado, a partir de supuestos que se acuerdan contigo y quedan por escrito: horas, errores, volumen y costo de operar la solución. Es una proyección, no una promesa de retorno.
 
-**¿Qué son IMPATH™ y FutureProof™?** IMPATH™ es la metodología propia de BluePixel para diagnosticar la fricción operativa y de experiencia de una operación. FutureProof™ es el marco de cinco principios con el que se diseña y se entrega lo que se construye. Una diagnostica; la otra guía cómo se construye.
+**¿Qué son IMPATH™ y FutureProof™?** IMPATH™ es la metodología propia de BluePixel para diagnosticar la fricción: crea gemelos digitales de tus usuarios que recorren tus flujos y muestran en qué punto se pierde tiempo y dinero. FutureProof™ es el marco de cinco principios con el que se diseña y se entrega lo que se construye. Una diagnostica; la otra guía cómo se construye.
 
 **¿Qué es el costo de inacción?** El costo de inacción es lo que una empresa pierde cada mes por no resolver un problema: horas en tareas manuales, errores y oportunidades que no se cierran. Calcularlo antes de invertir permite comparar el costo de actuar contra el de esperar.
 
@@ -209,7 +209,7 @@ Lo que resuelve:
 - El piloto de IA que nadie puede defender ante el consejo se queda en el limbo. → Un business case con ROI y un roadmap trimestral alineado con los objetivos financieros.
 
 Qué recibes:
-- Diagnóstico de fricción operativa IMPATH™: Dónde se pierden tiempo y dinero en la operación.
+- Diagnóstico de fricción con gemelos digitales: Dónde se pierden tiempo y dinero en la operación.
 - Recomendación de solución y arquitectura: Qué construir, comprar o integrar, y sobre qué base, antes de escribir código.
 - Backlog priorizado por impacto financiero: Qué va primero, según su impacto financiero.
 - Business case con ROI proyectado y costo de inacción: El retorno proyectado y lo que cuesta esperar.
@@ -340,7 +340,7 @@ Detalle: https://bluepixel.ai/capacidades/data-analytics#demostracion
 ### Proceso y contratación
 
 **¿Cómo empieza un proyecto con BluePixel?**
-Un proyecto con BluePixel empieza con una conversación: agendas una cita o escribes por WhatsApp, y una persona del equipo revisa tu caso contigo. De ahí sale qué servicio conviene y con qué alcance.
+Un proyecto con BluePixel empieza con una conversación: agendas una charla de 20 minutos o escribes por WhatsApp, y una persona del equipo revisa tu caso contigo. De ahí sale qué servicio conviene y con qué alcance.
 Detalle: https://bluepixel.ai/contacto
 
 **¿Quién trabaja en un proyecto de BluePixel?**
@@ -377,28 +377,28 @@ Detalle: https://bluepixel.ai/futureproof#principios
 ### 01 · Digital Consulting
 https://bluepixel.ai/en/services/digital-consulting
 
-To provide technical, financial and strategic certainty before committing capital to development.
+We give you technical, financial and strategic certainty before you commit budget to development.
 Timeline: 2 to 4 weeks.
-Deliverables: IMPATH™ operational friction diagnostic; Recommended technical architecture; Backlog prioritized by financial impact; Business case with projected ROI and cost of inaction.
+Deliverables: Friction diagnostic with digital twins; Recommended technical architecture; Backlog prioritized by financial impact; Business case with projected ROI and cost of inaction.
 
 ### 02 · Agents & Automation
 https://bluepixel.ai/en/services/agents-automation
 
-To put agentic workflows and deterministic integrations into production on the client's existing technology stack.
+We put AI agents and integrations that respond the same way every time into production, on the systems you already use.
 Timeline: 2 to 4 weeks.
 Deliverables: Autonomous AI agents (Agentic Automation); Private RAG over real corporate data, designed to abstain when there is no supporting evidence; Deterministic connectors via MCP (SAP, Salesforce, ERPs, banking and logistics APIs); Private cloud deployment.
 
 ### 03 · Digital Platforms
 https://bluepixel.ai/en/services/digital-platforms
 
-To design, validate and build scalable web and mobile platforms or corporate MVPs from scratch.
+We design, validate and build your web or mobile platform or MVP from scratch, ready to grow.
 Timeline: 2 to 4 months.
-Deliverables: Product Strategy (PS), prototyping and validation with real users; World-class UI design; Cloud-Native Full Stack development with decoupled architecture; Automated testing; Production deployment with SLA 99.9%.
+Deliverables: Product Strategy (PS), prototyping and validation with real users; Interface design tested with real users; Cloud-Native Full Stack development with decoupled architecture; Automated testing; Production deployment with SLA 99.9%.
 
 ### 04 · Digital Evolution
 https://bluepixel.ai/en/services/digital-evolution
 
-Continuous technology support to optimize, scale and evolve existing digital assets.
+We stay with you continuously to optimize, scale and evolve the platforms you already have.
 Timeline: Living roadmap of 6 or 12 months.
 Deliverables: Dedicated multidisciplinary squad (Tech Lead, AI Engineer, Senior Full Stack, UX/CRO Specialist); UX Health Score monitoring; Systematic technical debt reduction; Conversion rate optimization (CRO); Support with enterprise SLA.
 
@@ -445,7 +445,7 @@ What it solves:
 
 What you receive:
 - Documented decoupled architecture: Diagrams and decisions so your team can understand and maintain the system.
-- Source code and data in the client’s private cloud: Everything lives in your cloud, not ours.
+- Your source code and your data, in your private cloud: Everything lives in your cloud, not ours.
 - Automated testing and production deployment: Every change is tested before it reaches production.
 - Observability and SLA 99.9% in the Digital Platforms service: Errors and availability in plain sight from the first deployment.
 - Infrastructure as code: Your cloud is built from versioned code: repeatable and auditable.
@@ -547,7 +547,7 @@ What it solves:
 - The AI pilot no one can defend before the board stays in limbo. → A business case with ROI and a quarterly roadmap aligned with financial goals.
 
 What you receive:
-- IMPATH™ operational friction diagnostic: Where time and money are lost in the operation.
+- Friction diagnostic with digital twins: Where time and money are lost in the operation.
 - Recommended technical architecture: What to build and on what, before writing code.
 - Backlog prioritized by financial impact: What goes first, by financial impact.
 - Business case with projected ROI and cost of inaction: The projected return and what waiting costs.
@@ -678,7 +678,7 @@ Details: https://bluepixel.ai/en/capabilities/data-analytics#demostracion
 ### Process and hiring
 
 **How does a project with BluePixel start?**
-A project with BluePixel starts with a conversation: you book a meeting or message us on WhatsApp, and a person on the team reviews your case with you. That defines which service fits and with what scope.
+A project with BluePixel starts with a conversation: you book a 20-minute call or message us on WhatsApp, and a person on the team reviews your case with you. That defines which service fits and with what scope.
 Details: https://bluepixel.ai/en/contact
 
 **Who works on a BluePixel project?**
